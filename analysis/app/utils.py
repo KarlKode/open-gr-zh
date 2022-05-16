@@ -1,0 +1,173 @@
+import os
+import re
+import shutil
+from datetime import datetime
+
+import requests
+from tortoise.functions import Max
+
+from app.models import Meeting, AgendaItem, CouncilMember, Speech
+
+BASE_URL = "https://audio.gemeinderat-zuerich.ch/"
+SPEECH_DL_DIR = "speech_audio"
+
+TOC_RE = r"^tocTab\[ir\+\+\] = new Array \(\"(?P<id>Top|\d+(?:\.\d+)*)\", \"(Navigation|(?P<item_announcements>Mitteilungen)|(?:(?P<item_id>(?P<item_year>\d{4})\/(?P<item_number>\d+)) (?P<item_title>.+?))|(?:Sitzung (?P<meet_nr>\d+) vom (?P<meet_date>\d{2}\.\d{2}\.\d{4}))|(?:(?:(?P<speaker_salutation>Frau|Herr|(?:(?:Stadtp|Ratsp|P)räsident(?:in)?)) )?(?P<speaker_name>\D+?) \((?P<speaker_party>[^\)]+)\))|(?P<item_misc>.+?))\", (?:tocLink|\"(?P<url>content\/[^\"]+)\")\); \/\/(?:(?P<updated_at>\d{4}\.\d{2}\.\d{2} \d{2}:\d{2}:\d{2}:\d+)|.*)$"
+TOC_EXP = re.compile(TOC_RE, re.MULTILINE)
+
+
+def get_entries(toc: str):
+    return TOC_EXP.finditer(toc)
+
+
+def validate_re(toc):
+    entries = list(get_entries(toc))
+    lines = toc.split("\n")[
+        2:-1
+    ]  # Ignore first two lines (js definitions) and last line (empty newline)
+    print(f"{len(entries) == len(lines)} ({len(entries)}/{len(lines)}")
+    if len(entries) == len(lines):
+        return
+    i = j = 0
+    while i < len(entries) and j < len(lines):
+        if entries[i][0] != lines[j]:
+            print(f'e[{i}] != l[{j}] ("{entries[i][0][:-1]}" != "{lines[j][:-1]}"')
+            j += 1
+        else:
+            i += 1
+            j += 1
+
+
+async def sync_meetings():
+    toc_url = BASE_URL + "script/tocTab.js"
+    r = requests.get(toc_url)
+    r.raise_for_status()  # FIXME: handle non OK responses gracefully
+    toc = r.text
+    validate_re(toc)
+
+    entries = get_entries(toc)
+    meeting_cur = None
+    item_stack = []
+    for m in entries:
+        gps = m.groups()
+        id_str = m.group("id")
+        url = m.group("url")
+        # updated_at = m.group("updated_at")
+        levels = id_str.split(".")
+
+        if len(levels) == 1:
+            if levels[0] == "Top":
+                continue
+            # Raise ValueErrors for all unexpected values
+            meeting_date = datetime.strptime(m.group("meet_date"), "%d.%m.%Y").date()
+            meeting_cur = await Meeting.filter(
+                date=meeting_date, number=m.group("meet_nr")
+            ).first()
+            if not meeting_cur:
+                meeting_cur = await Meeting.create(
+                    date=meeting_date, number=m.group("meet_nr")
+                )
+        else:
+            parent = None
+            while item_stack:
+                item_id, item = item_stack[-1]
+                if item_id not in id_str:
+                    item_stack.pop(-1)
+                else:
+                    parent = item
+                    break
+
+            if (
+                m.group("item_announcements")
+                or m.group("item_id")
+                or m.group("item_misc")
+            ):
+                gr_number = None
+                if m.group("item_id"):
+                    gr_number = m.group("item_id")
+                    title = m.group("item_title")
+                elif m.group("item_announcements"):
+                    title = m.group("item_announcements")
+                elif m.group("item_misc"):
+                    title = m.group("item_misc")
+                else:
+                    raise NotImplementedError()
+
+                item = await AgendaItem.filter(
+                    gr_number=gr_number, meeting_id=meeting_cur.id, title=title
+                ).first()
+                if not item:
+                    last_item = (
+                        await AgendaItem.filter(meeting_id=meeting_cur.id)
+                        .annotate(max=Max("meeting_ordering"))
+                        .first()
+                        .values("max")
+                    )
+                    max_meeting_ordering = (
+                        last_item["max"] + 1 if last_item and last_item["max"] else 1
+                    )
+                    item = await AgendaItem.create(
+                        gr_number=gr_number,
+                        title=title,
+                        meeting_id=meeting_cur.id,
+                        meeting_ordering=max_meeting_ordering,
+                        parent_id=parent.id if parent else None,
+                    )
+                item_stack.append((id_str, item))
+            elif m.group("speaker_name"):
+                if not item_stack:
+                    raise NotImplementedError()
+                _, item = item_stack[-1]
+
+                # speaker_salutation = m.group("speaker_salutation")
+                name = m.group("speaker_name")
+                party = m.group("speaker_party")
+                member = await CouncilMember.filter(name=name, party=party).first()
+                if not member:
+                    member = await CouncilMember.create(name=name, party=party)
+
+                speech = await Speech.filter(
+                    council_member_id=member.id, item_id=item.id
+                ).first()
+                if not speech:
+                    last_speech = (
+                        await Speech.filter(item_id=item.id)
+                        .annotate(max=Max("item_ordering"))
+                        .first()
+                        .values("max")
+                    )
+                    max_speech_ordering = (
+                        last_speech["max"] + 1
+                        if last_speech and last_speech["max"]
+                        else 1
+                    )
+                    mp3_file = (
+                        url.replace("content", "audio")
+                        .replace("_", " ")
+                        .replace(".html#Audio-PC ", "_")
+                        .replace("Audio-PC ", "")
+                        + ".mp3"
+                    )
+                    mp3_url = BASE_URL + mp3_file
+                    speech = await Speech.create(
+                        council_member_id=member.id,
+                        item_id=item.id,
+                        item_ordering=max_speech_ordering,
+                        mp3_url=mp3_url,
+                    )
+
+
+async def sync_speech(speech_id: int):
+    speech = (
+        await Speech.filter(id=speech_id)
+        .prefetch_related("item", "item__meeting")
+        .first()
+    )
+    if not speech:
+        return
+    mp3_name = f"m{speech.item.meeting.id}_i{speech.item.id}_s{speech.id}.mp3"
+    speech.mp3_path = os.path.join(SPEECH_DL_DIR, mp3_name)
+    if not os.path.isfile(speech.mp3_path):
+        with requests.get(speech.mp3_url, stream=True) as r:
+            with open(speech.mp3_path, "wb") as f:
+                shutil.copyfileobj(r.raw, f)
+                await speech.save()

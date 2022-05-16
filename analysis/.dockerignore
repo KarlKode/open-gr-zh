@@ -1,0 +1,11 @@
+Dockerfile
+README.md
+
+# MISC files
+.venv
+.coverage
+dist/
+
+# runtime folders
+db.sqlite
+speech_audio/

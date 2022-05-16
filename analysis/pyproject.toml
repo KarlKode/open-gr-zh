@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "analysis"
+version = "0.1.0"
+description = ""
+authors = ["Marc Gähwiler <marc@marcg.ch>"]
+
+#readme = "README.rst"
+packages = [
+    { include = "app" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["all"], version = "^0.78.0"}
+tortoise-orm = {extras = ["aiosqlite"], version = "^0.19.0"}
+aerich = "^0.6.3"
+celery = "^5.2.6"
+flower = "^1.0.0"
+redis = "^4.3.1"
+aiohttp = "^3.8.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+
+
+[tool.aerich]
+tortoise_orm = "app.app.TORTOISE_ORM"
+location = "./migrations"
+src_folder = "./."
+
+[build-system]
+requires = ["poetry>=1.1.13"]
+build-backend = "poetry.masonry.api"
