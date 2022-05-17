@@ -1,63 +1,81 @@
-import os
+import logging
 import sys
 
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.middleware.trustedhost import TrustedHostMiddleware
 from tortoise.contrib.fastapi import register_tortoise
 
-from app.models import Meeting, Meeting_Pydantic
-from app.tasks import sync_meetings
+from app.api.api import api_router
+from app.core.config import settings
 
-app = FastAPI()
-
-DATABASE_URL = os.environ.get(
-    "DATABASE_URL",
-    "sqlite://db.sqlite",
+app = FastAPI(
+    title=settings.PROJECT_NAME,
+    version=settings.VERSION,
+    description=settings.DESCRIPTION,
+    openapi_url="/openapi.json",
+    docs_url="/",
 )
-TORTOISE_ORM = {
-    "connections": {"default": DATABASE_URL},
-    "apps": {
-        "models": {
-            "models": ["app.models", "aerich.models"],
-            "default_connection": "default",
-        },
-    },
-}
-
-register_tortoise(
-    app,
-    config=TORTOISE_ORM,
-    generate_schemas=True,
-    add_exception_handlers=True,
-)
+app.include_router(api_router)
 
 
-# Tortoise ORM logging
-import logging
+def init_logging():
+    logger = logging.getLogger("app")
+    logger.setLevel(logging.DEBUG)
 
-fmt = logging.Formatter(
-    fmt="%(asctime)s - %(name)s:%(lineno)d - %(levelname)s - %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
-sh = logging.StreamHandler(sys.stdout)
-sh.setLevel(logging.DEBUG)
-sh.setFormatter(fmt)
+    ch = logging.StreamHandler()
+    ch.setLevel(logging.DEBUG)
 
-# will print debug sql
-logger_db_client = logging.getLogger("db_client")
-# logger_db_client.setLevel(logging.DEBUG)
-# logger_db_client.addHandler(sh)
+    formatter = logging.Formatter(
+        "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    )
+    ch.setFormatter(formatter)
 
-logger_tortoise = logging.getLogger("tortoise")
-# logger_tortoise.setLevel(logging.DEBUG)
-# logger_tortoise.addHandler(sh)
+    logger.addHandler(ch)
 
 
-@app.get("/meetings")
-async def get_meetings():
-    return await Meeting_Pydantic.from_queryset(Meeting.all())
+def init_middlewares(app: FastAPI):
+    # Sets all CORS enabled origins
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=[str(origin) for origin in settings.BACKEND_CORS_ORIGINS],
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+
+    # Guards against HTTP Host Header attacks
+    app.add_middleware(TrustedHostMiddleware, allowed_hosts=settings.ALLOWED_HOSTS)
 
 
-@app.post("/sync")
-async def sync():
-    sync_meetings.apply_async()
-    return "done"
+def init_db(app: FastAPI):
+    register_tortoise(
+        app,
+        config=settings.DATABASE_CONFIG,
+        generate_schemas=True,
+        add_exception_handlers=True,
+    )
+
+    # Tortoise ORM logging
+    if False:
+        fmt = logging.Formatter(
+            fmt="%(asctime)s - %(name)s:%(lineno)d - %(levelname)s - %(message)s",
+            datefmt="%Y-%m-%d %H:%M:%S",
+        )
+        sh = logging.StreamHandler(sys.stdout)
+        sh.setLevel(logging.DEBUG)
+        sh.setFormatter(fmt)
+
+        # will print debug sql
+        logger_db_client = logging.getLogger("db_client")
+        logger_db_client.setLevel(logging.DEBUG)
+        logger_db_client.addHandler(sh)
+
+        logger_tortoise = logging.getLogger("tortoise")
+        logger_tortoise.setLevel(logging.DEBUG)
+        logger_tortoise.addHandler(sh)
+
+
+init_logging()
+init_middlewares(app)
+init_db(app)

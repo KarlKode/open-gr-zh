@@ -154,20 +154,3 @@ async def sync_meetings():
                         item_ordering=max_speech_ordering,
                         mp3_url=mp3_url,
                     )
-
-
-async def sync_speech(speech_id: int):
-    speech = (
-        await Speech.filter(id=speech_id)
-        .prefetch_related("item", "item__meeting")
-        .first()
-    )
-    if not speech:
-        return
-    mp3_name = f"m{speech.item.meeting.id}_i{speech.item.id}_s{speech.id}.mp3"
-    speech.mp3_path = os.path.join(SPEECH_DL_DIR, mp3_name)
-    if not os.path.isfile(speech.mp3_path):
-        with requests.get(speech.mp3_url, stream=True) as r:
-            with open(speech.mp3_path, "wb") as f:
-                shutil.copyfileobj(r.raw, f)
-                await speech.save()
