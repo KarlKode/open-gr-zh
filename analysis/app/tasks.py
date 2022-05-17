@@ -14,7 +14,7 @@ log = logging.getLogger(__name__)
 
 BASE_URL = "https://audio.gemeinderat-zuerich.ch/"
 SPEECH_DL_DIR = "speech_audio"
-CHUNK_SIZE = 4096
+CHUNK_SIZE = 1024 * 64
 
 TOC_RE = r"^tocTab\[ir\+\+\] = new Array \(\"(?P<id>Top|\d+(?:\.\d+)*)\", \"(Navigation|(?P<item_announcements>Mitteilungen)|(?:(?P<item_id>(?P<item_year>\d{4})\/(?P<item_number>\d+)) (?P<item_title>.+?))|(?:Sitzung (?P<meet_nr>\d+) vom (?P<meet_date>\d{2}\.\d{2}\.\d{4}))|(?:(?:(?P<speaker_salutation>Frau|Herr|(?:(?:Stadtp|Ratsp|P)räsident(?:in)?)) )?(?P<speaker_name>\D+?) \((?P<speaker_party>[^\)]+)\))|(?P<item_misc>.+?))\", (?:tocLink|\"(?P<url>content\/[^\"]+)\")\); \/\/(?:(?P<updated_at>\d{4}\.\d{2}\.\d{2} \d{2}:\d{2}:\d{2}:\d+)|.*)$"
 TOC_EXP = re.compile(TOC_RE, re.MULTILINE)
@@ -67,13 +67,14 @@ async def sync_meetings_db(entries) -> None:
     item_stack = []
     for m in entries:
         id_str = m.group("id")
-        log.info("Handling entry %s: %r", id_str, m.groups())
+        log.info("Handling entry %s: %r", id_str, m.groupdict())
         if id_str.find(".") == -1:
             if id_str == "Top":
                 continue
-            elif id_str[:2] == "20":
-                break
             meeting_date = datetime.strptime(m.group("meet_date"), "%d.%m.%Y").date()
+            if meeting_date < datetime(year=2020, month=1, day=1).date():
+                log.info(f"Stopping meeting sync: {meeting_date} ({m.groupdict()})")
+                break
             meeting = await upsert_meeting(meeting_date, int(m.group("meet_nr")))
         else:
             parent = None
@@ -96,7 +97,7 @@ async def sync_meetings_db(entries) -> None:
                         break
                 if not title:
                     raise ValueError(
-                        f"unexpected match: missing item title ({m.groups()!r})"
+                        f"unexpected match: missing item title ({m.groupdict()!r})"
                     )
                 item = await upsert_agenda_item(
                     m.group("item_id"), title, meeting, parent
@@ -105,7 +106,7 @@ async def sync_meetings_db(entries) -> None:
             elif m.group("speaker_name"):
                 if not item_stack:
                     raise ValueError(
-                        f"invalid speech: empty item stack ({m.groups()!r})"
+                        f"invalid speech: empty item stack ({m.groupdict()!r})"
                     )
                 _, item = item_stack[-1]
 
@@ -196,10 +197,9 @@ async def upsert_speech(member: CouncilMember, item: AgendaItem, url: str) -> Sp
 
 
 async def download_speech(speech: Speech) -> None:
-    async with aiohttp.ClientSession() as session:
+    timeout = aiohttp.ClientTimeout(total=60 * 5, sock_read=240)
+    async with aiohttp.ClientSession(timeout=timeout) as session:
         async with session.get(speech.mp3_url) as resp:
-            # with open(speech.mp3_path, "wb") as fd:
             async with aiofiles.open(speech.mp3_path, "wb") as f:
-                async for chunk in resp.content.iter_chunked(CHUNK_SIZE):
-                    # fd.write(chunk)
+                async for chunk in resp.content.iter_any():
                     await f.write(chunk)
