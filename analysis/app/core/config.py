@@ -11,7 +11,7 @@ Pydantic priority ordering:
 For project name, version, description we use pyproject.toml
 For the rest, we use file `.env` (gitignored), see `.env.example`
 
-`DEFAULT_SQLALCHEMY_DATABASE_URI` and `TEST_SQLALCHEMY_DATABASE_URI`:
+`DEFAULT_SQLALCHEMY_DATABASE_URL` and `TEST_SQLALCHEMY_DATABASE_URL`:
 Both are ment to be validated at the runtime, do not change unless you know
 what are you doing. All the two validators do is to build full URI (TCP protocol)
 to databases to avoid typo bugs.
@@ -61,7 +61,7 @@ class Settings(BaseSettings):
     DATABASE_PASSWORD: str | None = None
     DATABASE_PORT: str | None = None
     DATABASE_DB: str | None = None
-    DATABASE_URI: DatabaseDsn | None
+    DATABASE_URL: DatabaseDsn | None
     DATABASE_CONFIG: dict[str, Any] | None
 
     # Sentry
@@ -69,17 +69,15 @@ class Settings(BaseSettings):
 
     # Validators
     @validator("BACKEND_CORS_ORIGINS", pre=True)
-    def assemble_cors_origins(cls, v: str | list[str]) -> list[str] | str:
+    def _assemble_cors_origins(cls, v: str | list[str]) -> list[str] | str:
         if isinstance(v, str) and not v.startswith("["):
             return [i.strip() for i in v.split(",")]
         elif isinstance(v, (list, str)):
             return v
         raise ValueError(v)
 
-    @validator("DATABASE_URI")
-    def _assemble_database_uri(
-        cls, v: str | None, values: dict[str, str]
-    ) -> str:
+    @validator("DATABASE_URL", always=True)
+    def _assemble_DATABASE_URL(cls, v: str | None, values: dict[str, str]) -> str:
         if isinstance(v, str):
             return v
         if values["DATABASE_SCHEMA"] and values["DATABASE_HOSTNAME"]:
@@ -91,14 +89,16 @@ class Settings(BaseSettings):
                 port=values["DATABASE_PORT"],
                 path=f"/{values['DATABASE_DB']}",
             )
-        raise ValueError("DATABASE_URI or DATABASE_* required")
+        raise ValueError("DATABASE_URL or DATABASE_* required")
 
-    @validator("DATABASE_CONFIG")
-    def _assemble_database_config(cls, v: dict[str, Any] | None, values: dict[str, str | list[str]]) -> dict[str, Any]:
+    @validator("DATABASE_CONFIG", always=True)
+    def _assemble_database_config(
+        cls, v: dict[str, Any] | None, values: dict[str, str | list[str]]
+    ) -> dict[str, Any]:
         if v:
             return v
         return {
-            "connections": {"default": values["DATABASE_URI"]},
+            "connections": {"default": values["DATABASE_URL"]},
             "apps": {
                 "models": {
                     "models": values["MODELS"] + ["aerich.models"],

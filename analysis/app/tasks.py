@@ -3,6 +3,7 @@ import os
 import re
 from datetime import datetime
 
+import aiofiles
 import aiohttp
 from fastapi import BackgroundTasks
 from tortoise.functions import Max
@@ -44,29 +45,21 @@ async def sync_meetings() -> None:
 async def sync_speeches(background_tasks: BackgroundTasks) -> None:
     log.debug("Syncing ZH speeches")
     speeches_missing = (
-        await Speech.filter(mp3_path__isnull=True)
+        Speech.filter(mp3_path__isnull=True)
         .prefetch_related("item", "item__meeting")
         .order_by("item__meeting__id", "item__id")
     )
-    for speech in speeches_missing:  # “
-        background_tasks.add_task(sync_speech, speech.id)
+    async for speech in speeches_missing:
+        background_tasks.add_task(sync_speech, speech)
 
 
-async def sync_speech(speech_id: int) -> None:
-    log.debug("Syncing ZH speech %d", speech_id)
-    s = (
-        await Speech.filter(id=speech_id)
-        .prefetch_related("item", "item__meeting")
-        .first()
-    )
-    if not s:
-        return
-    mp3_name = f"m{s.item.meeting.id}_i{s.item.id}_s{s.id}.mp3"
-    s.mp3_path = os.path.join(SPEECH_DL_DIR, mp3_name)
-    if not os.path.isfile(s.mp3_path):
-        url = BASE_URL + "script/tocTab.js"
-        await download_file(url, s.mp3_path)
-    await s.save()
+async def sync_speech(speech: Speech) -> None:
+    log.debug("Syncing ZH speech %s", speech)
+    mp3_name = f"m{speech.item.meeting.id}_i{speech.item.id}_s{speech.id}.mp3"
+    speech.mp3_path = os.path.join(SPEECH_DL_DIR, mp3_name)
+    if not os.path.isfile(speech.mp3_path):
+        await download_speech(speech)
+    await speech.save()
 
 
 async def sync_meetings_db(entries) -> None:
@@ -78,6 +71,8 @@ async def sync_meetings_db(entries) -> None:
         if id_str.find(".") == -1:
             if id_str == "Top":
                 continue
+            elif id_str[:2] == "20":
+                break
             meeting_date = datetime.strptime(m.group("meet_date"), "%d.%m.%Y").date()
             meeting = await upsert_meeting(meeting_date, int(m.group("meet_nr")))
         else:
@@ -129,7 +124,7 @@ async def upsert_council_member(name: str, party: str) -> CouncilMember:
 
 
 async def upsert_meeting(date: datetime.date, meeting_number: int) -> Meeting:
-    log.debug("Upserting Meeting %s/%d", date.strftime("%d.%m.%Y"), meeting_number)
+    log.debug("Upserting meeting %s/%d", date.strftime("%d.%m.%Y"), meeting_number)
     m = await Meeting.filter(date=date, number=meeting_number).first()
     if not m:
         m = await Meeting.create(date=date, number=meeting_number)
@@ -200,9 +195,11 @@ async def upsert_speech(member: CouncilMember, item: AgendaItem, url: str) -> Sp
     return s
 
 
-async def download_file(url: str, dest: str) -> None:
+async def download_speech(speech: Speech) -> None:
     async with aiohttp.ClientSession() as session:
-        async with session.get(url) as resp:
-            with open(dest, "wb") as fd:
+        async with session.get(speech.mp3_url) as resp:
+            # with open(speech.mp3_path, "wb") as fd:
+            async with aiofiles.open(speech.mp3_path, "wb") as f:
                 async for chunk in resp.content.iter_chunked(CHUNK_SIZE):
-                    fd.write(chunk)
+                    # fd.write(chunk)
+                    await f.write(chunk)
