@@ -7,7 +7,7 @@ from fastapi.middleware.trustedhost import TrustedHostMiddleware
 from tortoise.contrib.fastapi import register_tortoise
 
 from app.api.api import api_router
-from app.core.config import settings
+from app.core.config import settings, DATABASE_CONFIG
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -51,7 +51,7 @@ def init_middlewares(app: FastAPI):
 def init_db(app: FastAPI):
     register_tortoise(
         app,
-        config=settings.DATABASE_CONFIG,
+        config=DATABASE_CONFIG,
         generate_schemas=True,
         add_exception_handlers=True,
     )

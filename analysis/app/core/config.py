@@ -20,15 +20,18 @@ See https://pydantic-docs.helpmanual.io/usage/settings/
 
 Note, complex types like lists are read as json-encoded strings.
 """
-
+import os
 from pathlib import Path
 from typing import Literal, Any
 
 import toml
-from pydantic import AnyHttpUrl, BaseSettings, PostgresDsn, validator, HttpUrl, AnyUrl
+from pydantic import AnyHttpUrl, BaseSettings, PostgresDsn, validator, HttpUrl, AnyUrl, MissingError
 
 PROJECT_DIR = Path(__file__).parent.parent.parent
-PYPROJECT_CONTENT = toml.load(f"{PROJECT_DIR}/pyproject.toml")["tool"]["poetry"]
+PYPROJECT_PATH = PROJECT_DIR / "pyproject.toml"
+if not PYPROJECT_PATH.exists():
+    PYPROJECT_PATH = Path.cwd() / "pyproject.toml"
+PYPROJECT_CONTENT = toml.load(PYPROJECT_PATH)["tool"]["poetry"]
 
 
 class DatabaseDsn(AnyUrl):
@@ -48,6 +51,7 @@ class Settings(BaseSettings):
     ALLOWED_HOSTS: list[str] = ["localhost"]
 
     MODELS: list[str] = ["app.models"]
+    AUDIO_DIR: Path = PROJECT_DIR / "speech_audio"
 
     # Project information from pyproject.toml
     PROJECT_NAME: str = PYPROJECT_CONTENT["name"]
@@ -55,14 +59,13 @@ class Settings(BaseSettings):
     DESCRIPTION: str = PYPROJECT_CONTENT["description"]
 
     # Database
-    DATABASE_SCHEMA: str = "sqlite"
+    DATABASE_SCHEME: str | None = None
     DATABASE_HOSTNAME: str | None = None
     DATABASE_USER: str | None = None
     DATABASE_PASSWORD: str | None = None
     DATABASE_PORT: str | None = None
     DATABASE_DB: str | None = None
-    DATABASE_URL: DatabaseDsn | None
-    DATABASE_CONFIG: dict[str, Any] | None
+    DATABASE_URL: DatabaseDsn = None
 
     # Sentry
     SENTRY_DSN: HttpUrl | None = None
@@ -76,36 +79,31 @@ class Settings(BaseSettings):
             return v
         raise ValueError(v)
 
-    @validator("DATABASE_URL", always=True)
-    def _assemble_DATABASE_URL(cls, v: str | None, values: dict[str, str]) -> str:
+    @validator("AUDIO_DIR", pre=True)
+    def _validate_dir(cls, v: str) -> str:
+        p = Path(v)
+        if not p.exists():
+            p.mkdir(parents=True, exist_ok=True)
+        return v
+
+    @validator("DATABASE_URL", always=True, check_fields=False)
+    def _assemble_database_url(cls, v: str | None, values: dict[str, str]) -> str:
         if isinstance(v, str):
             return v
-        if values["DATABASE_SCHEMA"] and values["DATABASE_HOSTNAME"]:
+        scheme, host = values.get("DATABASE_SCHEME"), values.get("DATABASE_HOSTNAME")
+        if scheme and host:
+            path = values.get("DATABASE_DB")
+            if path and path[0] != "/":
+                path = "/" + path
             return DatabaseDsn.build(
-                scheme="postgresql+asyncpg",
-                user=values["DATABASE_USER"],
-                password=values["DATABASE_PASSWORD"],
-                host=values["DATABASE_HOSTNAME"],
-                port=values["DATABASE_PORT"],
-                path=f"/{values['DATABASE_DB']}",
+                scheme=scheme,
+                user=values.get("DATABASE_USER", None),
+                password=values.get("DATABASE_PASSWORD", None),
+                host=host,
+                port=values.get("DATABASE_PORT", None),
+                path=path,
             )
-        raise ValueError("DATABASE_URL or DATABASE_* required")
-
-    @validator("DATABASE_CONFIG", always=True)
-    def _assemble_database_config(
-        cls, v: dict[str, Any] | None, values: dict[str, str | list[str]]
-    ) -> dict[str, Any]:
-        if v:
-            return v
-        return {
-            "connections": {"default": values["DATABASE_URL"]},
-            "apps": {
-                "models": {
-                    "models": values["MODELS"] + ["aerich.models"],
-                    "default_connection": "default",
-                },
-            },
-        }
+        raise MissingError()
 
     @validator("SENTRY_DSN", pre=True)
     def _sentry_dsn_can_be_blank(cls, v: str | None) -> str | None:
@@ -114,9 +112,18 @@ class Settings(BaseSettings):
         return v
 
     class Config:
-        env_file = f"{PROJECT_DIR}/.env"
         case_sensitive = True
+        env_file = f"{PROJECT_DIR}/.env"
+        env_file_encoding = 'utf-8'
 
 
 settings: Settings = Settings()  # type: ignore
-DATABASE_CONFIG = settings.DATABASE_CONFIG
+DATABASE_CONFIG = {
+    "connections": {"default": settings.DATABASE_URL},
+    "apps": {
+        "models": {
+            "models": settings.MODELS + ["aerich.models"],
+            "default_connection": "default",
+        },
+    },
+}

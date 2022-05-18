@@ -8,12 +8,12 @@ import aiohttp
 from fastapi import BackgroundTasks
 from tortoise.functions import Max
 
+from app.core.config import settings
 from app.models import Meeting, AgendaItem, CouncilMember, Speech
 
 log = logging.getLogger(__name__)
 
 BASE_URL = "https://audio.gemeinderat-zuerich.ch/"
-SPEECH_DL_DIR = "speech_audio"
 CHUNK_SIZE = 1024 * 64
 
 TOC_RE = r"^tocTab\[ir\+\+\] = new Array \(\"(?P<id>Top|\d+(?:\.\d+)*)\", \"(Navigation|(?P<item_announcements>Mitteilungen)|(?:(?P<item_id>(?P<item_year>\d{4})\/(?P<item_number>\d+)) (?P<item_title>.+?))|(?:Sitzung (?P<meet_nr>\d+) vom (?P<meet_date>\d{2}\.\d{2}\.\d{4}))|(?:(?:(?P<speaker_salutation>Frau|Herr|(?:(?:Stadtp|Ratsp|P)räsident(?:in)?)) )?(?P<speaker_name>\D+?) \((?P<speaker_party>[^\)]+)\))|(?P<item_misc>.+?))\", (?:tocLink|\"(?P<url>content\/[^\"]+)\")\); \/\/(?:(?P<updated_at>\d{4}\.\d{2}\.\d{2} \d{2}:\d{2}:\d{2}:\d+)|.*)$"
@@ -56,7 +56,7 @@ async def sync_speeches(background_tasks: BackgroundTasks) -> None:
 async def sync_speech(speech: Speech) -> None:
     log.debug("Syncing ZH speech %s", speech)
     mp3_name = f"m{speech.item.meeting.id}_i{speech.item.id}_s{speech.id}.mp3"
-    speech.mp3_path = os.path.join(SPEECH_DL_DIR, mp3_name)
+    speech.mp3_path = os.path.join(settings.AUDIO_DIR, mp3_name)
     if not os.path.isfile(speech.mp3_path):
         await download_speech(speech)
     await speech.save()
@@ -203,3 +203,7 @@ async def download_speech(speech: Speech) -> None:
             async with aiofiles.open(speech.mp3_path, "wb") as f:
                 async for chunk in resp.content.iter_any():
                     await f.write(chunk)
+
+
+
+

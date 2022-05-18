@@ -1,4 +1,5 @@
-from fastapi import APIRouter, BackgroundTasks
+from fastapi import APIRouter, BackgroundTasks, HTTPException
+from fastapi.responses import FileResponse
 
 from app.models import CouncilMember, Meeting, AgendaItem, Speech
 from app.schemas.council import CouncilMemberList_Pydantic, CouncilMember_Pydantic
@@ -40,7 +41,7 @@ async def sync_meetings(background_tasks: BackgroundTasks):
 
 @router.get("/meetings/{meeting_id}")
 async def get_meeting(meeting_id: int):
-    return await Meeting_Pydantic.from_queryset(Meeting.filter(id=meeting_id).first())
+    return await Meeting_Pydantic.from_queryset_single(Meeting.filter(id=meeting_id).first())
 
 
 @router.get("/items")
@@ -50,7 +51,7 @@ async def get_items():
 
 @router.get("/items/{item_id}")
 async def get_item(item_id: int):
-    return await AgendaItem_Pydantic.from_queryset(
+    return await AgendaItem_Pydantic.from_queryset_single(
         AgendaItem.filter(id=item_id).first()
     )
 
@@ -69,4 +70,13 @@ async def sync_speeches(background_tasks: BackgroundTasks):
 
 @router.get("/speeches/{speech_id}")
 async def get_speech(speech_id: int):
-    return await Speech_Pydantic.from_queryset(Speech.filter(id=speech_id).first())
+    return await Speech_Pydantic.from_queryset_single(Speech.filter(id=speech_id).first())
+
+
+@router.get("/speeches/{speech_id}/download")
+async def download_speech(speech_id: int):
+    s = await Speech.filter(id=speech_id).first()
+    if not s or not s.mp3_path:
+        detail = f"Speech {speech_id} not found" if not s else f"Speech {speech_id} not available"
+        raise HTTPException(status_code=404, detail=detail)
+    return FileResponse(s.mp3_path)

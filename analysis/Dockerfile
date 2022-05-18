@@ -28,7 +28,7 @@ RUN . /venv/bin/activate && poetry build
 FROM base as final
 
 COPY --from=builder /venv /venv
-COPY --from=builder /app/dist .
+COPY --from=builder /app/pyproject.toml /app/dist .
 #COPY app app
 #COPY docker-entrypoint.sh ./
 
