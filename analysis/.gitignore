@@ -53,14 +53,8 @@ venv/
 *.mo
 *.pot
 
-# Django stuff:
+# Logs
 *.log
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
 
 #Ipython Notebook
 .ipynb_checkpoints
@@ -71,3 +65,6 @@ dist/
 logs/
 speech_audio/
 db.sqlite*
+
+# IDE
+.idea/

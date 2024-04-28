@@ -1,0 +1,2626 @@
+b'<?xml version="1.0" encoding="utf-8"?>
+<SearchDetailResponse IDXSEQ="3393448" q="seq &gt;= 0" l="de-CH" s="1" m="100" numHits="3352"
+                      indexName="Behoerdenmandat" xmlns="http://www.cmiag.ch/cdws/searchDetailResponse"
+                      xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Hit Guid="537c2cd9ed114885b16f2d5b7f233ef2" SEQ="3386309" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="537c2cd9ed114885b16f2d5b7f233ef2" SEQ="3386309" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Kammerer</Name>
+            <Vorname>Bruno</Vorname>
+            <KontaktGuid>50a63fe190ba4a7db59a3879e7bb50ef</KontaktGuid>
+            <AltsystemID>912C4C43-D183-4D06-874A-5CAAEF10F4C8</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1986-04-02T00:00:00.000</Start>
+                <End xsi:nil="false">1998-02-26T00:00:00.000</End>
+                <Text>02.04.1986 - 25.02.1998</Text>
+            </Dauer>
+            <Gremium>SP</Gremium>
+            <GremiumGuid>f179673bb7c7404b8330303715862f1f</GremiumGuid>
+            <Gremiumstyp>Fraktion</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>4 und 5</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>4</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="64d22c88951942378ebbb0e84dd97834" SEQ="3386310" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="64d22c88951942378ebbb0e84dd97834" SEQ="3386310" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Kammerer</Name>
+            <Vorname>Bruno</Vorname>
+            <KontaktGuid>50a63fe190ba4a7db59a3879e7bb50ef</KontaktGuid>
+            <AltsystemID>912C4C43-D183-4D06-874A-5CAAEF10F4C8</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1970-04-08T00:00:00.000</Start>
+                <End xsi:nil="false">1982-03-05T00:00:00.000</End>
+                <Text>08.04.1970 - 04.03.1982</Text>
+            </Dauer>
+            <Gremium>SP</Gremium>
+            <GremiumGuid>f179673bb7c7404b8330303715862f1f</GremiumGuid>
+            <Gremiumstyp>Fraktion</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>4 und 5</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>4</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="b297e4bbbb5c4107930632a6fae7b491" SEQ="3386311" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="b297e4bbbb5c4107930632a6fae7b491" SEQ="3386311" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Weyermann</Name>
+            <Vorname>Karin</Vorname>
+            <KontaktGuid>dbab07ae646b405da6a2cb78b84a6bd0</KontaktGuid>
+            <AltsystemID>46841F3C-E363-40F7-BEF9-4EFAFE160E51</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2012-02-27T00:00:00.000</Start>
+                <End xsi:nil="false">2016-08-22T00:00:00.000</End>
+                <Text>27.02.2012 - 21.08.2016</Text>
+            </Dauer>
+            <Gremium>RedK (Redaktionskommission)</Gremium>
+            <GremiumGuid>1bbe3e9fa4ed4f88976bed4a311b24e2</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Die Mitte</Partei>
+            <ParteiGuid>2a954d1be4d94f2fa0a70a66cf70d86a</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>7 und 8</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>11</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="649782dbb7934c16afabc5dd2233542b" SEQ="3386312" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="649782dbb7934c16afabc5dd2233542b" SEQ="3386312" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Lamprecht</Name>
+            <Vorname>Pascal</Vorname>
+            <KontaktGuid>967c0420fe744c048d5472f51a601167</KontaktGuid>
+            <AltsystemID>24E06B1C-F63A-4C9D-B4E6-2837F9C46911</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2016-02-29T00:00:00.000</Start>
+                <End xsi:nil="false">2016-10-24T00:00:00.000</End>
+                <Text>29.02.2016 - 23.10.2016</Text>
+            </Dauer>
+            <Gremium>SK PD/V (Spezialkommission Polizeidepartement, Verkehr)</Gremium>
+            <GremiumGuid>16dc567dac764cfba38ecea238be8c49</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>9</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>9</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="ce1a8a3871054e6eb04605b3e23e1b4c" SEQ="3386313" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="ce1a8a3871054e6eb04605b3e23e1b4c" SEQ="3386313" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>B\xc3\xa4tschmann</Name>
+            <Vorname>Monika</Vorname>
+            <KontaktGuid>147a794147af4c3aa62ae7a9d699f1b9</KontaktGuid>
+            <AltsystemID>8EB28350-C0CB-42DB-B4BD-B753FD38FF7B</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2021-06-01T00:00:00.000</Start>
+                <End xsi:nil="false">2022-05-04T00:00:00.000</End>
+                <Text>01.06.2021 - 03.05.2022</Text>
+            </Dauer>
+            <Gremium>Gr\xc3\xbcne</Gremium>
+            <GremiumGuid>b415a00ff14141f7ae632fe01f06b4c4</GremiumGuid>
+            <Gremiumstyp>Fraktion</Gremiumstyp>
+            <Partei>Gr\xc3\xbcne Partei</Partei>
+            <ParteiGuid>baa4b64fb57e453ca98f1e36937a0606</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>10</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>10</Wohnkreis>
+            <Funktion>Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="d47d98c3e0634ca9a6df77fbfffd8cef" SEQ="3386314" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="d47d98c3e0634ca9a6df77fbfffd8cef" SEQ="3386314" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Hurschler</Name>
+            <Vorname>Roland</Vorname>
+            <KontaktGuid>cb7877b2021b4ce08ed65028a1288f11</KontaktGuid>
+            <AltsystemID>58DA1AFA-9C8C-4365-9170-5C5557B5DCA9</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2021-06-01T00:00:00.000</Start>
+                <End xsi:nil="false">2022-05-04T00:00:00.000</End>
+                <Text>01.06.2021 - 03.05.2022</Text>
+            </Dauer>
+            <Gremium>SK FD (Spezialkommission Finanzdepartement)</Gremium>
+            <GremiumGuid>3b75ce5227a04bd68c924c83ec54a050</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Gr\xc3\xbcne Partei</Partei>
+            <ParteiGuid>baa4b64fb57e453ca98f1e36937a0606</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>10</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>10</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="6df35d1914fe4e9eacc3b77973c3687a" SEQ="3386315" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="6df35d1914fe4e9eacc3b77973c3687a" SEQ="3386315" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>F\xc3\xbcrer</Name>
+            <Vorname>Brigitte</Vorname>
+            <KontaktGuid>4e3a94fca0a944579778489fcb088278</KontaktGuid>
+            <AltsystemID>9F155C63-F755-4BBD-B1B8-DD8E7AD4421E</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2021-05-31T00:00:00.000</Start>
+                <End xsi:nil="false">2021-09-22T00:00:00.000</End>
+                <Text>31.05.2021 - 21.09.2021</Text>
+            </Dauer>
+            <Gremium>BeKo RP SL\xc3\x96BA/V (Besondere Kommission kommunale Richtpl\xc3\xa4ne Siedlung, Landschaft,
+                \xc3\xb6ffentliche Bauten und Anlagen sowie Verkehr)
+            </Gremium>
+            <GremiumGuid>bed5a796790f45b8a294e915c9e944a7</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Gr\xc3\xbcne Partei</Partei>
+            <ParteiGuid>baa4b64fb57e453ca98f1e36937a0606</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>4 und 5</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>4</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="4df2c2762f0741e0879f8f3239bd00bb" SEQ="3386316" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="4df2c2762f0741e0879f8f3239bd00bb" SEQ="3386316" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Hofstetter</Name>
+            <Vorname>Julia</Vorname>
+            <KontaktGuid>8ef63a81beed48e08e0bf193c2ba367c</KontaktGuid>
+            <AltsystemID>B423F5C5-5410-4DBB-ABF0-C9474AB124C2</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2021-05-31T00:00:00.000</Start>
+                <End xsi:nil="false">2022-05-04T00:00:00.000</End>
+                <Text>31.05.2021 - 03.05.2022</Text>
+            </Dauer>
+            <Gremium>SK GUD (Spezialkommission Gesundheits- und Umweltdepartement)</Gremium>
+            <GremiumGuid>c903be7054744704a7efdc28ddfd6d0a</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Gr\xc3\xbcne Partei</Partei>
+            <ParteiGuid>baa4b64fb57e453ca98f1e36937a0606</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>11</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>11</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="c9b02319c92441bbbadc4c663230fab7" SEQ="3386317" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="c9b02319c92441bbbadc4c663230fab7" SEQ="3386317" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Escher</Name>
+            <Vorname>Georg</Vorname>
+            <KontaktGuid>957f1c1bc4d3415c99f3ba1de3871bce</KontaktGuid>
+            <AltsystemID>934F9B34-0B2D-4103-9BB2-F6F62802DE8C</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2020-06-26T00:00:00.000</Start>
+                <End xsi:nil="false">9999-12-31T23:59:59.000</End>
+                <Text>26.06.2020 -</Text>
+            </Dauer>
+            <Gremium>RedK (Redaktionskommission)</Gremium>
+            <GremiumGuid>1bbe3e9fa4ed4f88976bed4a311b24e2</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei></Partei>
+            <ParteiGuid></ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>Sekretariat</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="737ecdd6f485488aa0d73d06cacbaf52" SEQ="3386318" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="737ecdd6f485488aa0d73d06cacbaf52" SEQ="3386318" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Dubno</Name>
+            <Vorname>Samuel</Vorname>
+            <KontaktGuid>dba4f914840b4926ae870d8050d6ebb8</KontaktGuid>
+            <AltsystemID>280018F3-D364-48C4-96B1-4EEDB813C590</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2015-08-31T00:00:00.000</Start>
+                <End xsi:nil="false">2015-10-20T00:00:00.000</End>
+                <Text>31.08.2015 - 19.10.2015</Text>
+            </Dauer>
+            <Gremium>SK GUD (Spezialkommission Gesundheits- und Umweltdepartement)</Gremium>
+            <GremiumGuid>c903be7054744704a7efdc28ddfd6d0a</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Gr\xc3\xbcnliberale Partei</Partei>
+            <ParteiGuid>5040df323de44be6977d86f5e6485009</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>1 und 2</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>2</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="9737f801905b446bb0b9492b961a8401" SEQ="3386319" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="9737f801905b446bb0b9492b961a8401" SEQ="3386319" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Sobernheim</Name>
+            <Vorname>Sven</Vorname>
+            <KontaktGuid>6eddac6b0a104b6f92df26f63b9a1f91</KontaktGuid>
+            <AltsystemID>E77AC228-D6C5-42EE-9862-6A2CFEB1605F</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2015-08-31T00:00:00.000</Start>
+                <End xsi:nil="false">2017-01-16T00:00:00.000</End>
+                <Text>31.08.2015 - 15.01.2017</Text>
+            </Dauer>
+            <Gremium>SK TED/DIB (Spezialkommission Tiefbau- und Entsorgungsdepartement, Departement der Industriellen
+                Betriebe)
+            </Gremium>
+            <GremiumGuid>3defa0ea269e48ac8abd0c33e8e3d22b</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Gr\xc3\xbcnliberale Partei</Partei>
+            <ParteiGuid>5040df323de44be6977d86f5e6485009</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>11</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>11</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="1ad26caea8fd4e5bbc297aec00cf1a8b" SEQ="3386320" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="1ad26caea8fd4e5bbc297aec00cf1a8b" SEQ="3386320" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Steiner</Name>
+            <Vorname>Jonas</Vorname>
+            <KontaktGuid>32068327a30747d882e97710c2220611</KontaktGuid>
+            <AltsystemID>42B386E9-CA9B-4D1E-A425-1330ACAB9973</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2016-08-31T00:00:00.000</Start>
+                <End xsi:nil="false">2016-12-22T00:00:00.000</End>
+                <Text>31.08.2016 - 21.12.2016</Text>
+            </Dauer>
+            <Gremium>GPK (Gesch\xc3\xa4ftspr\xc3\xbcfungskommission)</Gremium>
+            <GremiumGuid>0bab680addc94a9e83cd184947ee46ce</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>6</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>6</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="e2df0db355ff4dfcb85a55690dd3b36d" SEQ="3386321" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="e2df0db355ff4dfcb85a55690dd3b36d" SEQ="3386321" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Beer</Name>
+            <Vorname>Duri</Vorname>
+            <KontaktGuid>4f9b3b339d254927a2eee9c4e367be7c</KontaktGuid>
+            <AltsystemID>BA439E1F-E568-4B4B-9816-9FA94A2FB3E5</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2016-08-31T00:00:00.000</Start>
+                <End xsi:nil="false">2016-11-02T00:00:00.000</End>
+                <Text>31.08.2016 - 01.11.2016</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>3</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>3</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="cde6541aa9234192a45b5f8e71425170" SEQ="3386322" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="cde6541aa9234192a45b5f8e71425170" SEQ="3386322" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Richli</Name>
+            <Vorname>Mark</Vorname>
+            <KontaktGuid>2dc448cf38064e4da1ca5335033e4f05</KontaktGuid>
+            <AltsystemID>FB4666DD-C057-4B5B-A649-05E621A707BA</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2016-08-31T00:00:00.000</Start>
+                <End xsi:nil="false">2022-01-01T00:00:00.000</End>
+                <Text>31.08.2016 - 31.12.2021</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>3</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>5</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="fcd3a21d74f9402683c5caded5cac025" SEQ="3386323" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="fcd3a21d74f9402683c5caded5cac025" SEQ="3386323" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>B\xc3\xbchrig</Name>
+            <Vorname>Marcel</Vorname>
+            <KontaktGuid>99e7f02d87494ebfae5046f8d110c829</KontaktGuid>
+            <AltsystemID>0A2595E4-F04C-4B05-910E-4F7B37161EDA</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2016-09-01T00:00:00.000</Start>
+                <End xsi:nil="false">2021-06-01T00:00:00.000</End>
+                <Text>01.09.2016 - 31.05.2021</Text>
+            </Dauer>
+            <Gremium>Gr\xc3\xbcne</Gremium>
+            <GremiumGuid>b415a00ff14141f7ae632fe01f06b4c4</GremiumGuid>
+            <Gremiumstyp>Fraktion</Gremiumstyp>
+            <Partei>Gr\xc3\xbcne Partei</Partei>
+            <ParteiGuid>baa4b64fb57e453ca98f1e36937a0606</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>10</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>1</Wohnkreis>
+            <Funktion>Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="779edb90f8164d3d9f212c09b4a9361c" SEQ="3386324" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="779edb90f8164d3d9f212c09b4a9361c" SEQ="3386324" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Hug</Name>
+            <Vorname>Christina</Vorname>
+            <KontaktGuid>fe7b84a4828042a8b6da51ce6acc95ac</KontaktGuid>
+            <AltsystemID>28D69D35-F7EA-414F-B58A-EBA868CFEBB1</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2016-09-01T00:00:00.000</Start>
+                <End xsi:nil="false">2017-01-01T00:00:00.000</End>
+                <Text>01.09.2016 - 31.12.2016</Text>
+            </Dauer>
+            <Gremium>Gr\xc3\xbcne</Gremium>
+            <GremiumGuid>b415a00ff14141f7ae632fe01f06b4c4</GremiumGuid>
+            <Gremiumstyp>Fraktion</Gremiumstyp>
+            <Partei>Gr\xc3\xbcne Partei</Partei>
+            <ParteiGuid>baa4b64fb57e453ca98f1e36937a0606</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>7 und 8</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>7</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="2b7f3f98f30e4fa58b117f8355480037" SEQ="3386325" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="2b7f3f98f30e4fa58b117f8355480037" SEQ="3386325" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Denoth</Name>
+            <Vorname>Marco</Vorname>
+            <KontaktGuid>523adb281cec42449699c1a86c8cc03c</KontaktGuid>
+            <AltsystemID>438FA20F-61C4-49D5-8B76-06BBE37E4D74</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2020-08-31T00:00:00.000</Start>
+                <End xsi:nil="false">2022-05-04T00:00:00.000</End>
+                <Text>31.08.2020 - 03.05.2022</Text>
+            </Dauer>
+            <Gremium>SK HBD/SE (Spezialkommission Hochbaudepartement, Stadtentwicklung)</Gremium>
+            <GremiumGuid>d8d35d79aa374939bc2dbd18327857a7</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>6</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>4</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="4e5a07ce977e481f845ee15b9f041bad" SEQ="3386326" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="4e5a07ce977e481f845ee15b9f041bad" SEQ="3386326" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Egger</Name>
+            <Vorname>Heidi</Vorname>
+            <KontaktGuid>ed2decf696a6497785716b7f0a34f3ea</KontaktGuid>
+            <AltsystemID>70C4FB44-48DA-47B2-B24E-AAF500C1E78C</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2020-08-31T00:00:00.000</Start>
+                <End xsi:nil="false">2021-09-22T00:00:00.000</End>
+                <Text>31.08.2020 - 21.09.2021</Text>
+            </Dauer>
+            <Gremium>BeKo RP SL\xc3\x96BA/V (Besondere Kommission kommunale Richtpl\xc3\xa4ne Siedlung, Landschaft,
+                \xc3\xb6ffentliche Bauten und Anlagen sowie Verkehr)
+            </Gremium>
+            <GremiumGuid>bed5a796790f45b8a294e915c9e944a7</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>11</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>11</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="35237f4c88a64a4e8c82271cb6bcad5a" SEQ="3386327" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="35237f4c88a64a4e8c82271cb6bcad5a" SEQ="3386327" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Se\xc3\xb1or\xc3\xa1n</Name>
+            <Vorname>Maria del Carmen</Vorname>
+            <KontaktGuid>3cc75d4b54e249689ead37a9fc0d7d9a</KontaktGuid>
+            <AltsystemID>8AE2B81E-3866-473D-B4F3-91D75D491859</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2021-09-01T00:00:00.000</Start>
+                <End xsi:nil="false">2022-06-15T00:00:00.000</End>
+                <Text>01.09.2021 - 14.06.2022</Text>
+            </Dauer>
+            <Gremium>Stiftung PWG zur Erhaltung von preisg\xc3\xbcnstigen Wohn- und Gewerber\xc3\xa4umen der Stadt
+                Z\xc3\xbcrich
+            </Gremium>
+            <GremiumGuid>c67a6bde473e49f5a9e02fd26bc3e9b1</GremiumGuid>
+            <Gremiumstyp>Ratsexterne Kommission/Stiftung</Gremiumstyp>
+            <Partei>Schweizerische Volkspartei</Partei>
+            <ParteiGuid>c9af9f2d398b4cf793f9f164d8f61006</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>1 und 2</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>2</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="060c65f2138e46b4ac6d4d2a831881a0" SEQ="3386328" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="060c65f2138e46b4ac6d4d2a831881a0" SEQ="3386328" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>B\xc3\xb6gli</Name>
+            <Vorname>Moritz</Vorname>
+            <KontaktGuid>347eff05aa2e418797132836f60bd433</KontaktGuid>
+            <AltsystemID>DDBF1F96-50B2-43D8-9DC1-4AE0A1B689B5</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2022-09-01T00:00:00.000</Start>
+                <End xsi:nil="false">9999-12-31T23:59:59.000</End>
+                <Text>01.09.2022 -</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>Alternative Liste</Partei>
+            <ParteiGuid>13dbe4a033864ef79dcd8f5869a01498</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>10</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>4</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="false">69</Sitz>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="417beb26e436452fa33ea1a9e43de5e6" SEQ="3386329" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="417beb26e436452fa33ea1a9e43de5e6" SEQ="3386329" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Gautschi</Name>
+            <Vorname>Adrian</Vorname>
+            <KontaktGuid>7edc566e5f094b0fa32bef14671a5ee2</KontaktGuid>
+            <AltsystemID>3F57F384-AAA0-4D7F-A359-95D12086624D</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2012-11-01T00:00:00.000</Start>
+                <End xsi:nil="false">2017-03-01T00:00:00.000</End>
+                <Text>01.11.2012 - 28.02.2017</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>Gr\xc3\xbcnliberale Partei</Partei>
+            <ParteiGuid>5040df323de44be6977d86f5e6485009</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>3</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>3</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="8a71616e1c814e6bb2b955adf8b3ec46" SEQ="3386330" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="8a71616e1c814e6bb2b955adf8b3ec46" SEQ="3386330" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Gautschi</Name>
+            <Vorname>Adrian</Vorname>
+            <KontaktGuid>7edc566e5f094b0fa32bef14671a5ee2</KontaktGuid>
+            <AltsystemID>3F57F384-AAA0-4D7F-A359-95D12086624D</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2012-11-01T00:00:00.000</Start>
+                <End xsi:nil="false">2017-03-01T00:00:00.000</End>
+                <Text>01.11.2012 - 28.02.2017</Text>
+            </Dauer>
+            <Gremium>GLP</Gremium>
+            <GremiumGuid>74261076640a4be0b42a59cbb82b58f7</GremiumGuid>
+            <Gremiumstyp>Fraktion</Gremiumstyp>
+            <Partei>Gr\xc3\xbcnliberale Partei</Partei>
+            <ParteiGuid>5040df323de44be6977d86f5e6485009</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>3</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>3</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="1e577d0cb74c4a84bece7e92e01b41af" SEQ="3386331" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="1e577d0cb74c4a84bece7e92e01b41af" SEQ="3386331" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Marti</Name>
+            <Vorname>Min Li</Vorname>
+            <KontaktGuid>1aec5762e01c4cdfa40fbe6e4648fa75</KontaktGuid>
+            <AltsystemID>8630DC95-B153-4F7E-BD51-1F9FC314AF4A</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2013-09-30T00:00:00.000</Start>
+                <End xsi:nil="false">2015-11-26T00:00:00.000</End>
+                <Text>30.09.2013 - 25.11.2015</Text>
+            </Dauer>
+            <Gremium>RedK (Redaktionskommission)</Gremium>
+            <GremiumGuid>1bbe3e9fa4ed4f88976bed4a311b24e2</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>4 und 5</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>10</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="6ba54433b15840a5908a50436b605325" SEQ="3386334" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="6ba54433b15840a5908a50436b605325" SEQ="3386334" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Brander</Name>
+            <Vorname>Simone</Vorname>
+            <KontaktGuid>7fb00122146345ab8e34c6fce16342a2</KontaktGuid>
+            <AltsystemID>76FBBC2B-275A-4F50-8832-2C5AD3FA3BC4</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2020-09-30T00:00:00.000</Start>
+                <End xsi:nil="false">2021-01-21T00:00:00.000</End>
+                <Text>30.09.2020 - 20.01.2021</Text>
+            </Dauer>
+            <Gremium>PUK ERZ (Parlamentarische Untersuchungskommission ERZ)</Gremium>
+            <GremiumGuid>aec2ba0de5734aecb975cbc771f07e5d</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel>STR</Titel>
+            <Wahlkreis>10</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>10</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="1c070afdeb964f1f8ce539ebef231041" SEQ="3386335" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="1c070afdeb964f1f8ce539ebef231041" SEQ="3386335" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Landolt</Name>
+            <Vorname>Maleica</Vorname>
+            <KontaktGuid>58f1da9b20cf40b38ea5f056f768c315</KontaktGuid>
+            <AltsystemID>6F80DE0E-2322-46C4-891B-3A2781B127C9</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2013-10-30T00:00:00.000</Start>
+                <End xsi:nil="false">2022-05-04T00:00:00.000</End>
+                <Text>30.10.2013 - 03.05.2022</Text>
+            </Dauer>
+            <Gremium>GPK (Gesch\xc3\xa4ftspr\xc3\xbcfungskommission)</Gremium>
+            <GremiumGuid>0bab680addc94a9e83cd184947ee46ce</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Gr\xc3\xbcnliberale Partei</Partei>
+            <ParteiGuid>5040df323de44be6977d86f5e6485009</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>11</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>11</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="1de850f697934bd0bcec7afcf4980dd6" SEQ="3386336" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="1de850f697934bd0bcec7afcf4980dd6" SEQ="3386336" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Beer</Name>
+            <Vorname>Duri</Vorname>
+            <KontaktGuid>4f9b3b339d254927a2eee9c4e367be7c</KontaktGuid>
+            <AltsystemID>BA439E1F-E568-4B4B-9816-9FA94A2FB3E5</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2016-10-31T00:00:00.000</Start>
+                <End xsi:nil="false">2018-05-22T00:00:00.000</End>
+                <Text>31.10.2016 - 21.05.2018</Text>
+            </Dauer>
+            <Gremium>SK PRD/SSD (Spezialkommission Pr\xc3\xa4sidialdepartement, Schul- und Sportdepartement)</Gremium>
+            <GremiumGuid>77c64db9ee6d4c49a48921f8602f77a0</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>3</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>3</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="34bdb93528d94514be7c12efe52714fa" SEQ="3386337" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="34bdb93528d94514be7c12efe52714fa" SEQ="3386337" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Schick</Name>
+            <Vorname>Peter</Vorname>
+            <KontaktGuid>5cb7ae7b2e5943049924f8622c0c8791</KontaktGuid>
+            <AltsystemID>E8E2757E-5A19-4B22-B144-BF1CB7B82B29</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2015-11-30T00:00:00.000</Start>
+                <End xsi:nil="false">2016-08-29T00:00:00.000</End>
+                <Text>30.11.2015 - 28.08.2016</Text>
+            </Dauer>
+            <Gremium>SK HBD/SE (Spezialkommission Hochbaudepartement, Stadtentwicklung)</Gremium>
+            <GremiumGuid>d8d35d79aa374939bc2dbd18327857a7</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Schweizerische Volkspartei</Partei>
+            <ParteiGuid>c9af9f2d398b4cf793f9f164d8f61006</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>11</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>11</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="7f2066d3a15a46628396d803d1bb6d5b" SEQ="3386338" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="7f2066d3a15a46628396d803d1bb6d5b" SEQ="3386338" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Zopfi</Name>
+            <Vorname>Sebastian</Vorname>
+            <KontaktGuid>09610efe1120458e9f875eb411d6395d</KontaktGuid>
+            <AltsystemID>2B885129-DC24-4AD9-A259-7A456E950F73</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2021-02-01T00:00:00.000</Start>
+                <End xsi:nil="false">2022-05-04T00:00:00.000</End>
+                <Text>01.02.2021 - 03.05.2022</Text>
+            </Dauer>
+            <Gremium>SK SD (Spezialkommission Sozialdepartement)</Gremium>
+            <GremiumGuid>2128a8a0383b43c3a98b1fb576437c60</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Schweizerische Volkspartei</Partei>
+            <ParteiGuid>c9af9f2d398b4cf793f9f164d8f61006</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>1 und 2</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>2</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="6c198d4bab274b0b83baf35112e93196" SEQ="3386339" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="6c198d4bab274b0b83baf35112e93196" SEQ="3386339" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>R\xc3\xbchli</Name>
+            <Vorname>Frank</Vorname>
+            <KontaktGuid>a16f9cccc4584ac48591aec0dc9f2855</KontaktGuid>
+            <AltsystemID>93B2647B-B404-4FDA-AC2C-B02B75904EC1</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2021-03-01T00:00:00.000</Start>
+                <End xsi:nil="false">2022-05-04T00:00:00.000</End>
+                <Text>01.03.2021 - 03.05.2022</Text>
+            </Dauer>
+            <Gremium>SK GUD (Spezialkommission Gesundheits- und Umweltdepartement)</Gremium>
+            <GremiumGuid>c903be7054744704a7efdc28ddfd6d0a</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel>Dr.</Titel>
+            <Wahlkreis>12</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>12</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="edc448a6f39a4c679279a7f2da453273" SEQ="3386340" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="edc448a6f39a4c679279a7f2da453273" SEQ="3386340" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>M\xc3\xbcller</Name>
+            <Vorname>Marcel</Vorname>
+            <KontaktGuid>fe79a5428bfc41ca8257a736a8bc87a4</KontaktGuid>
+            <AltsystemID>12F11F39-D53E-4CB2-A1DA-0D458E0A0411</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2021-03-01T00:00:00.000</Start>
+                <End xsi:nil="false">2022-05-04T00:00:00.000</End>
+                <Text>01.03.2021 - 03.05.2022</Text>
+            </Dauer>
+            <Gremium>SK TED/DIB (Spezialkommission Tiefbau- und Entsorgungsdepartement, Departement der Industriellen
+                Betriebe)
+            </Gremium>
+            <GremiumGuid>3defa0ea269e48ac8abd0c33e8e3d22b</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>9</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>9</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="4d5396be979246cd8f914d3f2a3be55f" SEQ="3386341" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="4d5396be979246cd8f914d3f2a3be55f" SEQ="3386341" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Brunner</Name>
+            <Vorname>Patrik</Vorname>
+            <KontaktGuid>263d4f170c574480915b2306bfc7031c</KontaktGuid>
+            <AltsystemID>A6AD8389-0002-4020-B5C2-28C8F5BF1CAC</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2021-03-01T00:00:00.000</Start>
+                <End xsi:nil="false">2022-05-04T00:00:00.000</End>
+                <Text>01.03.2021 - 03.05.2022</Text>
+            </Dauer>
+            <Gremium>SK SD (Spezialkommission Sozialdepartement)</Gremium>
+            <GremiumGuid>2128a8a0383b43c3a98b1fb576437c60</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>6</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>6</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="6821c6dc7c4e4e1b9ffe6dd2818a0e70" SEQ="3386342" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="6821c6dc7c4e4e1b9ffe6dd2818a0e70" SEQ="3386342" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Dufournet</Name>
+            <Vorname>M\xc3\xa9lissa</Vorname>
+            <KontaktGuid>08d1541a61e84572995c5dd0f94a441e</KontaktGuid>
+            <AltsystemID>D44E3587-80C7-40C7-A05E-E7E377828064</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2021-03-01T00:00:00.000</Start>
+                <End xsi:nil="false">2023-06-05T00:00:00.000</End>
+                <Text>01.03.2021 - 04.06.2023</Text>
+            </Dauer>
+            <Gremium>RedK (Redaktionskommission)</Gremium>
+            <GremiumGuid>1bbe3e9fa4ed4f88976bed4a311b24e2</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>3</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>10</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="3310043596d9468c8d12e1ed2a9f7be7" SEQ="3386343" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="3310043596d9468c8d12e1ed2a9f7be7" SEQ="3386343" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Bartholdi</Name>
+            <Vorname>Roger</Vorname>
+            <KontaktGuid>fa74cf092a004968b8accd2ac3ad55ce</KontaktGuid>
+            <AltsystemID>BD983E30-7D78-4FEC-91FB-5BAB8E4C647D</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2021-03-01T00:00:00.000</Start>
+                <End xsi:nil="false">2021-09-22T00:00:00.000</End>
+                <Text>01.03.2021 - 21.09.2021</Text>
+            </Dauer>
+            <Gremium>BeKo RP SL\xc3\x96BA/V (Besondere Kommission kommunale Richtpl\xc3\xa4ne Siedlung, Landschaft,
+                \xc3\xb6ffentliche Bauten und Anlagen sowie Verkehr)
+            </Gremium>
+            <GremiumGuid>bed5a796790f45b8a294e915c9e944a7</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Schweizerische Volkspartei</Partei>
+            <ParteiGuid>c9af9f2d398b4cf793f9f164d8f61006</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>9</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>9</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="352f4b571ed3452e859a6785e3857a08" SEQ="3386344" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="352f4b571ed3452e859a6785e3857a08" SEQ="3386344" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Egli</Name>
+            <Vorname>Andreas</Vorname>
+            <KontaktGuid>98b1a5aeeffc4678ae3f246fd1575d65</KontaktGuid>
+            <AltsystemID>8E54FD16-8091-4AD3-93BD-6A08698CD9A9</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2019-10-06T00:00:00.000</Start>
+                <End xsi:nil="false">2023-07-02T00:00:00.000</End>
+                <Text>06.10.2019 - 01.07.2023</Text>
+            </Dauer>
+            <Gremium>FDP</Gremium>
+            <GremiumGuid>82f765845175438f83c542a0ec0ce386</GremiumGuid>
+            <Gremiumstyp>Fraktion</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>10</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>10</Wohnkreis>
+            <Funktion>Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="942ea050bacf4611a6bad9b3b577560a" SEQ="3386345" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="942ea050bacf4611a6bad9b3b577560a" SEQ="3386345" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Riklin</Name>
+            <Vorname>Kathy</Vorname>
+            <KontaktGuid>9b5757e5510746e49e90de5e9f1ca702</KontaktGuid>
+            <AltsystemID>2B78A4E8-7656-4EEC-961B-1780EC60D481</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2000-05-10T00:00:00.000</Start>
+                <End xsi:nil="false">2001-05-09T00:00:00.000</End>
+                <Text>10.05.2000 - 08.05.2001</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Christlichdemokratische Volkspartei</Partei>
+            <ParteiGuid>bb3826e1c533474abe94d001aeaf9bd4</ParteiGuid>
+            <Titel>Dr.</Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>Pr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="1cb59426359c48dd8cb11fece423fc6f" SEQ="3386346" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="1cb59426359c48dd8cb11fece423fc6f" SEQ="3386346" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Riklin</Name>
+            <Vorname>Kathy</Vorname>
+            <KontaktGuid>9b5757e5510746e49e90de5e9f1ca702</KontaktGuid>
+            <AltsystemID>2B78A4E8-7656-4EEC-961B-1780EC60D481</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2000-05-10T00:00:00.000</Start>
+                <End xsi:nil="false">2001-05-09T00:00:00.000</End>
+                <Text>10.05.2000 - 08.05.2001</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>Christlichdemokratische Volkspartei</Partei>
+            <ParteiGuid>bb3826e1c533474abe94d001aeaf9bd4</ParteiGuid>
+            <Titel>Dr.</Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>Pr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="9b91b16a755d4721b28a016c3c0c6da7" SEQ="3386347" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="9b91b16a755d4721b28a016c3c0c6da7" SEQ="3386347" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Riklin</Name>
+            <Vorname>Kathy</Vorname>
+            <KontaktGuid>9b5757e5510746e49e90de5e9f1ca702</KontaktGuid>
+            <AltsystemID>2B78A4E8-7656-4EEC-961B-1780EC60D481</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1999-05-19T00:00:00.000</Start>
+                <End xsi:nil="false">2000-05-10T00:00:00.000</End>
+                <Text>19.05.1999 - 09.05.2000</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>Christlichdemokratische Volkspartei</Partei>
+            <ParteiGuid>bb3826e1c533474abe94d001aeaf9bd4</ParteiGuid>
+            <Titel>Dr.</Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>1. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="16cea7e3e0284196bf7a352480710898" SEQ="3386348" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="16cea7e3e0284196bf7a352480710898" SEQ="3386348" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Riklin</Name>
+            <Vorname>Kathy</Vorname>
+            <KontaktGuid>9b5757e5510746e49e90de5e9f1ca702</KontaktGuid>
+            <AltsystemID>2B78A4E8-7656-4EEC-961B-1780EC60D481</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1999-05-19T00:00:00.000</Start>
+                <End xsi:nil="false">2000-05-10T00:00:00.000</End>
+                <Text>19.05.1999 - 09.05.2000</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Christlichdemokratische Volkspartei</Partei>
+            <ParteiGuid>bb3826e1c533474abe94d001aeaf9bd4</ParteiGuid>
+            <Titel>Dr.</Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>1. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="50ef38f66731495eb8117ef32e6b6428" SEQ="3386349" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="50ef38f66731495eb8117ef32e6b6428" SEQ="3386349" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Riklin</Name>
+            <Vorname>Kathy</Vorname>
+            <KontaktGuid>9b5757e5510746e49e90de5e9f1ca702</KontaktGuid>
+            <AltsystemID>2B78A4E8-7656-4EEC-961B-1780EC60D481</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1998-05-02T00:00:00.000</Start>
+                <End xsi:nil="false">1999-05-19T00:00:00.000</End>
+                <Text>02.05.1998 - 18.05.1999</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Christlichdemokratische Volkspartei</Partei>
+            <ParteiGuid>bb3826e1c533474abe94d001aeaf9bd4</ParteiGuid>
+            <Titel>Dr.</Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>2. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="263a4a208b60451fb8d13f57e427da78" SEQ="3386350" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="263a4a208b60451fb8d13f57e427da78" SEQ="3386350" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Riklin</Name>
+            <Vorname>Kathy</Vorname>
+            <KontaktGuid>9b5757e5510746e49e90de5e9f1ca702</KontaktGuid>
+            <AltsystemID>2B78A4E8-7656-4EEC-961B-1780EC60D481</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1998-05-02T00:00:00.000</Start>
+                <End xsi:nil="false">1999-05-19T00:00:00.000</End>
+                <Text>02.05.1998 - 18.05.1999</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>Christlichdemokratische Volkspartei</Partei>
+            <ParteiGuid>bb3826e1c533474abe94d001aeaf9bd4</ParteiGuid>
+            <Titel>Dr.</Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>2. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="e25f7ddc72ba43ec8d161a22f35269ce" SEQ="3386351" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="e25f7ddc72ba43ec8d161a22f35269ce" SEQ="3386351" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Riklin</Name>
+            <Vorname>Kathy</Vorname>
+            <KontaktGuid>9b5757e5510746e49e90de5e9f1ca702</KontaktGuid>
+            <AltsystemID>2B78A4E8-7656-4EEC-961B-1780EC60D481</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1982-04-07T00:00:00.000</Start>
+                <End xsi:nil="false">2001-05-31T00:00:00.000</End>
+                <Text>07.04.1982 - 30.05.2001</Text>
+            </Dauer>
+            <Gremium>CVP</Gremium>
+            <GremiumGuid>2f1c910b73694540893badc3f008912f</GremiumGuid>
+            <Gremiumstyp>Fraktion</Gremiumstyp>
+            <Partei>Christlichdemokratische Volkspartei</Partei>
+            <ParteiGuid>bb3826e1c533474abe94d001aeaf9bd4</ParteiGuid>
+            <Titel>Dr.</Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="262857b2657c4d97bd24ee79865f9d3b" SEQ="3386352" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="262857b2657c4d97bd24ee79865f9d3b" SEQ="3386352" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Walther</Name>
+            <Vorname>Rolf</Vorname>
+            <KontaktGuid>5ae5c3cce5ff4f2ab69a8881b9a42e23</KontaktGuid>
+            <AltsystemID>2FB7685F-8314-4B48-9245-AF052371275D</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2001-05-09T00:00:00.000</Start>
+                <End xsi:nil="false">2002-04-10T00:00:00.000</End>
+                <Text>09.05.2001 - 09.04.2002</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>9</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>9</Wohnkreis>
+            <Funktion>Pr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="6ce57e2097fc4df081a8f0f126dc951a" SEQ="3386353" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="6ce57e2097fc4df081a8f0f126dc951a" SEQ="3386353" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Walther</Name>
+            <Vorname>Rolf</Vorname>
+            <KontaktGuid>5ae5c3cce5ff4f2ab69a8881b9a42e23</KontaktGuid>
+            <AltsystemID>2FB7685F-8314-4B48-9245-AF052371275D</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2001-05-09T00:00:00.000</Start>
+                <End xsi:nil="false">2002-04-10T00:00:00.000</End>
+                <Text>09.05.2001 - 09.04.2002</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>9</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>9</Wohnkreis>
+            <Funktion>Pr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="cfd4c169b0774457ae0ec7211f36e812" SEQ="3386354" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="cfd4c169b0774457ae0ec7211f36e812" SEQ="3386354" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Walther</Name>
+            <Vorname>Rolf</Vorname>
+            <KontaktGuid>5ae5c3cce5ff4f2ab69a8881b9a42e23</KontaktGuid>
+            <AltsystemID>2FB7685F-8314-4B48-9245-AF052371275D</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2000-05-10T00:00:00.000</Start>
+                <End xsi:nil="false">2001-05-09T00:00:00.000</End>
+                <Text>10.05.2000 - 08.05.2001</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>9</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>9</Wohnkreis>
+            <Funktion>1. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="2319395dcc3c4e5ea1474c9d7f2e09ae" SEQ="3386355" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="2319395dcc3c4e5ea1474c9d7f2e09ae" SEQ="3386355" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Walther</Name>
+            <Vorname>Rolf</Vorname>
+            <KontaktGuid>5ae5c3cce5ff4f2ab69a8881b9a42e23</KontaktGuid>
+            <AltsystemID>2FB7685F-8314-4B48-9245-AF052371275D</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1999-05-19T00:00:00.000</Start>
+                <End xsi:nil="false">2000-05-10T00:00:00.000</End>
+                <Text>19.05.1999 - 09.05.2000</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>9</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>9</Wohnkreis>
+            <Funktion>2. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="71c59e42a845455abc7728da4553bb09" SEQ="3386356" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="71c59e42a845455abc7728da4553bb09" SEQ="3386356" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Walther</Name>
+            <Vorname>Rolf</Vorname>
+            <KontaktGuid>5ae5c3cce5ff4f2ab69a8881b9a42e23</KontaktGuid>
+            <AltsystemID>2FB7685F-8314-4B48-9245-AF052371275D</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2000-05-10T00:00:00.000</Start>
+                <End xsi:nil="false">2001-05-09T00:00:00.000</End>
+                <Text>10.05.2000 - 08.05.2001</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>9</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>9</Wohnkreis>
+            <Funktion>1. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="9972b314ad9b46a884f733e9ae7a0ece" SEQ="3386357" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="9972b314ad9b46a884f733e9ae7a0ece" SEQ="3386357" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Walther</Name>
+            <Vorname>Rolf</Vorname>
+            <KontaktGuid>5ae5c3cce5ff4f2ab69a8881b9a42e23</KontaktGuid>
+            <AltsystemID>2FB7685F-8314-4B48-9245-AF052371275D</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1999-05-19T00:00:00.000</Start>
+                <End xsi:nil="false">2000-05-10T00:00:00.000</End>
+                <Text>19.05.1999 - 09.05.2000</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>9</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>9</Wohnkreis>
+            <Funktion>2. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="f5440fa2392c40aca77ba911eb22e333" SEQ="3386358" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="f5440fa2392c40aca77ba911eb22e333" SEQ="3386358" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Leuzinger</Name>
+            <Vorname>Romana</Vorname>
+            <KontaktGuid>f92f911d3e0240afaf2e8ca84400770a</KontaktGuid>
+            <AltsystemID>67A18930-56DA-4F2B-A6A9-E55C65AD2512</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2002-04-10T00:00:00.000</Start>
+                <End xsi:nil="false">2003-05-07T00:00:00.000</End>
+                <Text>10.04.2002 - 06.05.2003</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>3</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>Pr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="3d0f6a3489944ed28fafe9ab8d82e12f" SEQ="3386359" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="3d0f6a3489944ed28fafe9ab8d82e12f" SEQ="3386359" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Leuzinger</Name>
+            <Vorname>Romana</Vorname>
+            <KontaktGuid>f92f911d3e0240afaf2e8ca84400770a</KontaktGuid>
+            <AltsystemID>67A18930-56DA-4F2B-A6A9-E55C65AD2512</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1990-04-04T00:00:00.000</Start>
+                <End xsi:nil="false">2003-05-08T00:00:00.000</End>
+                <Text>04.04.1990 - 07.05.2003</Text>
+            </Dauer>
+            <Gremium>SP</Gremium>
+            <GremiumGuid>f179673bb7c7404b8330303715862f1f</GremiumGuid>
+            <Gremiumstyp>Fraktion</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>3</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="3ac16e3092b446e5a72e79ed94dc0c73" SEQ="3386360" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="3ac16e3092b446e5a72e79ed94dc0c73" SEQ="3386360" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Leuzinger</Name>
+            <Vorname>Romana</Vorname>
+            <KontaktGuid>f92f911d3e0240afaf2e8ca84400770a</KontaktGuid>
+            <AltsystemID>67A18930-56DA-4F2B-A6A9-E55C65AD2512</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2002-04-10T00:00:00.000</Start>
+                <End xsi:nil="false">2003-05-07T00:00:00.000</End>
+                <Text>10.04.2002 - 06.05.2003</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>3</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>Pr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="be1087627e364685aeb5da0437bb6b88" SEQ="3386361" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="be1087627e364685aeb5da0437bb6b88" SEQ="3386361" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Leuzinger</Name>
+            <Vorname>Romana</Vorname>
+            <KontaktGuid>f92f911d3e0240afaf2e8ca84400770a</KontaktGuid>
+            <AltsystemID>67A18930-56DA-4F2B-A6A9-E55C65AD2512</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2001-05-09T00:00:00.000</Start>
+                <End xsi:nil="false">2002-04-10T00:00:00.000</End>
+                <Text>09.05.2001 - 09.04.2002</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>3</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>1. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="321cf643fbed48e6bb69c2f16e2c0d44" SEQ="3386362" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="321cf643fbed48e6bb69c2f16e2c0d44" SEQ="3386362" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Leuzinger</Name>
+            <Vorname>Romana</Vorname>
+            <KontaktGuid>f92f911d3e0240afaf2e8ca84400770a</KontaktGuid>
+            <AltsystemID>67A18930-56DA-4F2B-A6A9-E55C65AD2512</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2000-05-10T00:00:00.000</Start>
+                <End xsi:nil="false">2001-05-09T00:00:00.000</End>
+                <Text>10.05.2000 - 08.05.2001</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>3</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>2. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="e42f30e9c8bb466492feebe70d91c72d" SEQ="3386363" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="e42f30e9c8bb466492feebe70d91c72d" SEQ="3386363" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Leuzinger</Name>
+            <Vorname>Romana</Vorname>
+            <KontaktGuid>f92f911d3e0240afaf2e8ca84400770a</KontaktGuid>
+            <AltsystemID>67A18930-56DA-4F2B-A6A9-E55C65AD2512</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2001-05-09T00:00:00.000</Start>
+                <End xsi:nil="false">2002-04-10T00:00:00.000</End>
+                <Text>09.05.2001 - 09.04.2002</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>3</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>1. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="9b5ba18433a446ddb58a3229ed6d4a9a" SEQ="3386364" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="9b5ba18433a446ddb58a3229ed6d4a9a" SEQ="3386364" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Leuzinger</Name>
+            <Vorname>Romana</Vorname>
+            <KontaktGuid>f92f911d3e0240afaf2e8ca84400770a</KontaktGuid>
+            <AltsystemID>67A18930-56DA-4F2B-A6A9-E55C65AD2512</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2000-05-10T00:00:00.000</Start>
+                <End xsi:nil="false">2001-05-09T00:00:00.000</End>
+                <Text>10.05.2000 - 08.05.2001</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>3</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>2. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="42dc001b8b0441238e367c763ba08017" SEQ="3386365" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="42dc001b8b0441238e367c763ba08017" SEQ="3386365" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Huber</Name>
+            <Vorname>Reni</Vorname>
+            <KontaktGuid>7b8fe1d8cafb4e0bb4f43148100c3920</KontaktGuid>
+            <AltsystemID>62689894-2306-442D-8F92-12E84DE90619</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1990-04-04T00:00:00.000</Start>
+                <End xsi:nil="false">1998-03-02T00:00:00.000</End>
+                <Text>04.04.1990 - 01.03.1998</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei></Partei>
+            <ParteiGuid></ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>6</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="4ebdb18ec8d14748bdaa7fc61b7e921e" SEQ="3386366" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="4ebdb18ec8d14748bdaa7fc61b7e921e" SEQ="3386366" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Huber</Name>
+            <Vorname>Reni</Vorname>
+            <KontaktGuid>7b8fe1d8cafb4e0bb4f43148100c3920</KontaktGuid>
+            <AltsystemID>62689894-2306-442D-8F92-12E84DE90619</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1995-05-10T00:00:00.000</Start>
+                <End xsi:nil="false">1996-05-08T00:00:00.000</End>
+                <Text>10.05.1995 - 07.05.1996</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei></Partei>
+            <ParteiGuid></ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>6</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>Pr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="69a6662216fb4faab51d43a3718fa146" SEQ="3386367" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="69a6662216fb4faab51d43a3718fa146" SEQ="3386367" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Huber</Name>
+            <Vorname>Reni</Vorname>
+            <KontaktGuid>7b8fe1d8cafb4e0bb4f43148100c3920</KontaktGuid>
+            <AltsystemID>62689894-2306-442D-8F92-12E84DE90619</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1995-05-10T00:00:00.000</Start>
+                <End xsi:nil="false">1996-05-08T00:00:00.000</End>
+                <Text>10.05.1995 - 07.05.1996</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei></Partei>
+            <ParteiGuid></ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>6</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>Pr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="77476b0540944aa49641835b1092b9a1" SEQ="3386368" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="77476b0540944aa49641835b1092b9a1" SEQ="3386368" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Huber</Name>
+            <Vorname>Reni</Vorname>
+            <KontaktGuid>7b8fe1d8cafb4e0bb4f43148100c3920</KontaktGuid>
+            <AltsystemID>62689894-2306-442D-8F92-12E84DE90619</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1994-04-06T00:00:00.000</Start>
+                <End xsi:nil="false">1995-05-10T00:00:00.000</End>
+                <Text>06.04.1994 - 09.05.1995</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei></Partei>
+            <ParteiGuid></ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>6</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>1. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="1a2b1e90bbb1408589f149b3c947d430" SEQ="3386369" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="1a2b1e90bbb1408589f149b3c947d430" SEQ="3386369" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Huber</Name>
+            <Vorname>Reni</Vorname>
+            <KontaktGuid>7b8fe1d8cafb4e0bb4f43148100c3920</KontaktGuid>
+            <AltsystemID>62689894-2306-442D-8F92-12E84DE90619</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1994-04-06T00:00:00.000</Start>
+                <End xsi:nil="false">1995-05-10T00:00:00.000</End>
+                <Text>06.04.1994 - 09.05.1995</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei></Partei>
+            <ParteiGuid></ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>6</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>1. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="8d04dd5bcd0c4d6dbc9dc0ef8b4313af" SEQ="3386370" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="8d04dd5bcd0c4d6dbc9dc0ef8b4313af" SEQ="3386370" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Huber</Name>
+            <Vorname>Reni</Vorname>
+            <KontaktGuid>7b8fe1d8cafb4e0bb4f43148100c3920</KontaktGuid>
+            <AltsystemID>62689894-2306-442D-8F92-12E84DE90619</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1993-05-12T00:00:00.000</Start>
+                <End xsi:nil="false">1994-04-06T00:00:00.000</End>
+                <Text>12.05.1993 - 05.04.1994</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei></Partei>
+            <ParteiGuid></ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>6</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>2. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="e6ed18181f3c48e69292f76510b8c7f1" SEQ="3386371" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="e6ed18181f3c48e69292f76510b8c7f1" SEQ="3386371" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Huber</Name>
+            <Vorname>Reni</Vorname>
+            <KontaktGuid>7b8fe1d8cafb4e0bb4f43148100c3920</KontaktGuid>
+            <AltsystemID>62689894-2306-442D-8F92-12E84DE90619</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1993-05-12T00:00:00.000</Start>
+                <End xsi:nil="false">1994-04-06T00:00:00.000</End>
+                <Text>12.05.1993 - 05.04.1994</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei></Partei>
+            <ParteiGuid></ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>6</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>2. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="d2bba3b5e7004ab1a3857337f9ba1dc3" SEQ="3386372" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="d2bba3b5e7004ab1a3857337f9ba1dc3" SEQ="3386372" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Huber</Name>
+            <Vorname>Reni</Vorname>
+            <KontaktGuid>7b8fe1d8cafb4e0bb4f43148100c3920</KontaktGuid>
+            <AltsystemID>62689894-2306-442D-8F92-12E84DE90619</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1990-04-04T00:00:00.000</Start>
+                <End xsi:nil="false">1998-03-02T00:00:00.000</End>
+                <Text>04.04.1990 - 01.03.1998</Text>
+            </Dauer>
+            <Gremium>SP</Gremium>
+            <GremiumGuid>f179673bb7c7404b8330303715862f1f</GremiumGuid>
+            <Gremiumstyp>Fraktion</Gremiumstyp>
+            <Partei></Partei>
+            <ParteiGuid></ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>6</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="0b6d569be9594f408f15146594d26812" SEQ="3386373" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="0b6d569be9594f408f15146594d26812" SEQ="3386373" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Baumann</Name>
+            <Vorname>Otto</Vorname>
+            <KontaktGuid>c7afd433ad564e73a10675fbccd055ba</KontaktGuid>
+            <AltsystemID>EFDDDAD0-7602-4B11-BC64-F34555BD4AEB</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1975-04-30T00:00:00.000</Start>
+                <End xsi:nil="false">1976-05-05T00:00:00.000</End>
+                <Text>30.04.1975 - 04.05.1976</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Evangelische Volkspartei</Partei>
+            <ParteiGuid>00c6d40a2af64799bed03fb19d48389a</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>Pr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="fd30e45459eb41a69ad7e3012d162d39" SEQ="3386374" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="fd30e45459eb41a69ad7e3012d162d39" SEQ="3386374" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Baumann</Name>
+            <Vorname>Otto</Vorname>
+            <KontaktGuid>c7afd433ad564e73a10675fbccd055ba</KontaktGuid>
+            <AltsystemID>EFDDDAD0-7602-4B11-BC64-F34555BD4AEB</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1975-04-30T00:00:00.000</Start>
+                <End xsi:nil="false">1976-05-05T00:00:00.000</End>
+                <Text>30.04.1975 - 04.05.1976</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>Evangelische Volkspartei</Partei>
+            <ParteiGuid>00c6d40a2af64799bed03fb19d48389a</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>Pr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="ca917659dd0946ec964d285af00803fc" SEQ="3386375" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="ca917659dd0946ec964d285af00803fc" SEQ="3386375" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Baumann</Name>
+            <Vorname>Otto</Vorname>
+            <KontaktGuid>c7afd433ad564e73a10675fbccd055ba</KontaktGuid>
+            <AltsystemID>EFDDDAD0-7602-4B11-BC64-F34555BD4AEB</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1963-08-28T00:00:00.000</Start>
+                <End xsi:nil="false">1979-07-13T00:00:00.000</End>
+                <Text>28.08.1963 - 12.07.1979</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>Evangelische Volkspartei</Partei>
+            <ParteiGuid>00c6d40a2af64799bed03fb19d48389a</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="b9a80d3330074c8ca3696ae7481288be" SEQ="3386376" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="b9a80d3330074c8ca3696ae7481288be" SEQ="3386376" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Bollier</Name>
+            <Vorname>Jean E.</Vorname>
+            <KontaktGuid>78e69b743cc54e21b804c52f65e1e3ed</KontaktGuid>
+            <AltsystemID>E359F252-AF22-4062-AF6C-EACA12AC8F0E</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1998-04-08T00:00:00.000</Start>
+                <End xsi:nil="false">1999-05-19T00:00:00.000</End>
+                <Text>08.04.1998 - 18.05.1999</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>10</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>10</Wohnkreis>
+            <Funktion>Pr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="69ca0158187947b2a836be6bdbbc256c" SEQ="3386377" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="69ca0158187947b2a836be6bdbbc256c" SEQ="3386377" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Bollier</Name>
+            <Vorname>Jean E.</Vorname>
+            <KontaktGuid>78e69b743cc54e21b804c52f65e1e3ed</KontaktGuid>
+            <AltsystemID>E359F252-AF22-4062-AF6C-EACA12AC8F0E</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1998-04-08T00:00:00.000</Start>
+                <End xsi:nil="false">1999-05-19T00:00:00.000</End>
+                <Text>08.04.1998 - 18.05.1999</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>10</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>10</Wohnkreis>
+            <Funktion>Pr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="3eecd81a31ef43279f8bd7790bc208c3" SEQ="3386378" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="3eecd81a31ef43279f8bd7790bc208c3" SEQ="3386378" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Bollier</Name>
+            <Vorname>Jean E.</Vorname>
+            <KontaktGuid>78e69b743cc54e21b804c52f65e1e3ed</KontaktGuid>
+            <AltsystemID>E359F252-AF22-4062-AF6C-EACA12AC8F0E</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1997-05-14T00:00:00.000</Start>
+                <End xsi:nil="false">1998-04-08T00:00:00.000</End>
+                <Text>14.05.1997 - 07.04.1998</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>10</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>10</Wohnkreis>
+            <Funktion>1. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="450fffe9bd05415b9c2fc541350eb1bb" SEQ="3386379" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="450fffe9bd05415b9c2fc541350eb1bb" SEQ="3386379" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Bollier</Name>
+            <Vorname>Jean E.</Vorname>
+            <KontaktGuid>78e69b743cc54e21b804c52f65e1e3ed</KontaktGuid>
+            <AltsystemID>E359F252-AF22-4062-AF6C-EACA12AC8F0E</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1997-05-14T00:00:00.000</Start>
+                <End xsi:nil="false">1998-04-08T00:00:00.000</End>
+                <Text>14.05.1997 - 07.04.1998</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>10</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>10</Wohnkreis>
+            <Funktion>1. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="c8ff6832322a4a22ad89f5ec2e7e5614" SEQ="3386380" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="c8ff6832322a4a22ad89f5ec2e7e5614" SEQ="3386380" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Bollier</Name>
+            <Vorname>Jean E.</Vorname>
+            <KontaktGuid>78e69b743cc54e21b804c52f65e1e3ed</KontaktGuid>
+            <AltsystemID>E359F252-AF22-4062-AF6C-EACA12AC8F0E</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1996-05-08T00:00:00.000</Start>
+                <End xsi:nil="false">1997-05-14T00:00:00.000</End>
+                <Text>08.05.1996 - 13.05.1997</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>10</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>10</Wohnkreis>
+            <Funktion>2. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="3c98b679fc994298a4e7096e4f7fb9a4" SEQ="3386381" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="3c98b679fc994298a4e7096e4f7fb9a4" SEQ="3386381" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Bollier</Name>
+            <Vorname>Jean E.</Vorname>
+            <KontaktGuid>78e69b743cc54e21b804c52f65e1e3ed</KontaktGuid>
+            <AltsystemID>E359F252-AF22-4062-AF6C-EACA12AC8F0E</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1996-05-08T00:00:00.000</Start>
+                <End xsi:nil="false">1997-05-14T00:00:00.000</End>
+                <Text>08.05.1996 - 13.05.1997</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>10</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>10</Wohnkreis>
+            <Funktion>2. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="039ab0952e1a444c829b98ec62572763" SEQ="3386382" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="039ab0952e1a444c829b98ec62572763" SEQ="3386382" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Furrer</Name>
+            <Vorname>Werner</Vorname>
+            <KontaktGuid>d6d650e9f8214ad5aba81a4be7f63f52</KontaktGuid>
+            <AltsystemID>795532BC-45A7-47D0-BA57-DDF447F87E91</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1995-05-10T00:00:00.000</Start>
+                <End xsi:nil="false">1996-05-08T00:00:00.000</End>
+                <Text>10.05.1995 - 07.05.1996</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei></Partei>
+            <ParteiGuid></ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>2. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="6b94cae869c84e65ac01b24300720ee7" SEQ="3386383" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="6b94cae869c84e65ac01b24300720ee7" SEQ="3386383" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Furrer</Name>
+            <Vorname>Werner</Vorname>
+            <KontaktGuid>d6d650e9f8214ad5aba81a4be7f63f52</KontaktGuid>
+            <AltsystemID>795532BC-45A7-47D0-BA57-DDF447F87E91</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1996-05-08T00:00:00.000</Start>
+                <End xsi:nil="false">1997-05-14T00:00:00.000</End>
+                <Text>08.05.1996 - 13.05.1997</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei></Partei>
+            <ParteiGuid></ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>1. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="b31015529e004c96bd4d93b6fd65fc34" SEQ="3386384" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="b31015529e004c96bd4d93b6fd65fc34" SEQ="3386384" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Furrer</Name>
+            <Vorname>Werner</Vorname>
+            <KontaktGuid>d6d650e9f8214ad5aba81a4be7f63f52</KontaktGuid>
+            <AltsystemID>795532BC-45A7-47D0-BA57-DDF447F87E91</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1995-05-10T00:00:00.000</Start>
+                <End xsi:nil="false">1996-05-08T00:00:00.000</End>
+                <Text>10.05.1995 - 07.05.1996</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei></Partei>
+            <ParteiGuid></ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>2. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="143018f19b904418ba68455d7c442232" SEQ="3386385" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="143018f19b904418ba68455d7c442232" SEQ="3386385" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Furrer</Name>
+            <Vorname>Werner</Vorname>
+            <KontaktGuid>d6d650e9f8214ad5aba81a4be7f63f52</KontaktGuid>
+            <AltsystemID>795532BC-45A7-47D0-BA57-DDF447F87E91</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1997-05-14T00:00:00.000</Start>
+                <End xsi:nil="false">1998-04-08T00:00:00.000</End>
+                <Text>14.05.1997 - 07.04.1998</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei></Partei>
+            <ParteiGuid></ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>Pr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="b3400dd5ce254f458b280e70e5cbd94c" SEQ="3386386" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="b3400dd5ce254f458b280e70e5cbd94c" SEQ="3386386" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Furrer</Name>
+            <Vorname>Werner</Vorname>
+            <KontaktGuid>d6d650e9f8214ad5aba81a4be7f63f52</KontaktGuid>
+            <AltsystemID>795532BC-45A7-47D0-BA57-DDF447F87E91</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1996-05-08T00:00:00.000</Start>
+                <End xsi:nil="false">1997-05-14T00:00:00.000</End>
+                <Text>08.05.1996 - 13.05.1997</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei></Partei>
+            <ParteiGuid></ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>1. Vizepr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="e711b51babda430abf9dd8cbb7a759f6" SEQ="3386387" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="e711b51babda430abf9dd8cbb7a759f6" SEQ="3386387" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Furrer</Name>
+            <Vorname>Werner</Vorname>
+            <KontaktGuid>d6d650e9f8214ad5aba81a4be7f63f52</KontaktGuid>
+            <AltsystemID>795532BC-45A7-47D0-BA57-DDF447F87E91</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">1997-05-14T00:00:00.000</Start>
+                <End xsi:nil="false">1998-04-08T00:00:00.000</End>
+                <Text>14.05.1997 - 07.04.1998</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei></Partei>
+            <ParteiGuid></ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis></Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis></Wohnkreis>
+            <Funktion>Pr\xc3\xa4sidium</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="1d0cddfcf2cd43189067562e2967524a" SEQ="3386388" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="1d0cddfcf2cd43189067562e2967524a" SEQ="3386388" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Bertozzi</Name>
+            <Vorname>Roberto</Vorname>
+            <KontaktGuid>6bd9fa14f3bb456f90c5776c4a0a9a74</KontaktGuid>
+            <AltsystemID>79466D9A-5739-44EF-A0FD-50E46A0F2FF8</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2013-04-02T00:00:00.000</Start>
+                <End xsi:nil="false">2014-05-07T00:00:00.000</End>
+                <Text>02.04.2013 - 06.05.2014</Text>
+            </Dauer>
+            <Gremium>SK TED/DIB (Spezialkommission Tiefbau- und Entsorgungsdepartement, Departement der Industriellen
+                Betriebe)
+            </Gremium>
+            <GremiumGuid>3defa0ea269e48ac8abd0c33e8e3d22b</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Schweizerische Volkspartei</Partei>
+            <ParteiGuid>c9af9f2d398b4cf793f9f164d8f61006</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>11</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>11</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="5f4ed4f1e79046b68e581bc938a5e287" SEQ="3386389" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="5f4ed4f1e79046b68e581bc938a5e287" SEQ="3386389" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Erdem</Name>
+            <Vorname>Niyazi</Vorname>
+            <KontaktGuid>31730630a4df4a36a9de4eb3c0c69189</KontaktGuid>
+            <AltsystemID>53760522-5B08-4A99-B645-C3FFDE91555F</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2017-05-02T00:00:00.000</Start>
+                <End xsi:nil="false">2022-05-04T00:00:00.000</End>
+                <Text>02.05.2017 - 03.05.2022</Text>
+            </Dauer>
+            <Gremium>SK TED/DIB (Spezialkommission Tiefbau- und Entsorgungsdepartement, Departement der Industriellen
+                Betriebe)
+            </Gremium>
+            <GremiumGuid>3defa0ea269e48ac8abd0c33e8e3d22b</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>3</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>3</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="c87da2cc97ab40129436b981bb9248ae" SEQ="3386390" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="c87da2cc97ab40129436b981bb9248ae" SEQ="3386390" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Novak</Name>
+            <Vorname>Martina</Vorname>
+            <KontaktGuid>9f56431391644827962d2a4d2852a80f</KontaktGuid>
+            <AltsystemID>1A2AA558-CBD2-4AB6-8725-7C791CEC92AD</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2019-05-03T00:00:00.000</Start>
+                <End xsi:nil="false">9999-12-31T23:59:59.000</End>
+                <Text>03.05.2019 -</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>Gr\xc3\xbcnliberale Partei</Partei>
+            <ParteiGuid>5040df323de44be6977d86f5e6485009</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>7 und 8</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>8</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="false">28</Sitz>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="02dc6e49dd084626b9dbd9354548f73b" SEQ="3386391" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="02dc6e49dd084626b9dbd9354548f73b" SEQ="3386391" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Novak</Name>
+            <Vorname>Martina</Vorname>
+            <KontaktGuid>9f56431391644827962d2a4d2852a80f</KontaktGuid>
+            <AltsystemID>1A2AA558-CBD2-4AB6-8725-7C791CEC92AD</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2019-05-03T00:00:00.000</Start>
+                <End xsi:nil="false">2021-02-22T00:00:00.000</End>
+                <Text>03.05.2019 - 21.02.2021</Text>
+            </Dauer>
+            <Gremium>GLP</Gremium>
+            <GremiumGuid>74261076640a4be0b42a59cbb82b58f7</GremiumGuid>
+            <Gremiumstyp>Fraktion</Gremiumstyp>
+            <Partei>Gr\xc3\xbcnliberale Partei</Partei>
+            <ParteiGuid>5040df323de44be6977d86f5e6485009</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>7 und 8</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>8</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="4c821d51b4ec4a819ec0921b57f982db" SEQ="3386392" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="4c821d51b4ec4a819ec0921b57f982db" SEQ="3386392" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Kobler</Name>
+            <Vorname>Raphael</Vorname>
+            <KontaktGuid>1f450cc3365b4070a8548acfe1fb3db3</KontaktGuid>
+            <AltsystemID>E01DACDF-58F4-4BEA-8515-081590EA17A1</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2014-05-29T00:00:00.000</Start>
+                <End xsi:nil="false">2020-04-09T00:00:00.000</End>
+                <Text>29.05.2014 - 08.04.2020</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>3</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>4</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="fe02f4ca0ceb414a9d0fb889b5a9041f" SEQ="3386393" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="fe02f4ca0ceb414a9d0fb889b5a9041f" SEQ="3386393" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Bodmer</Name>
+            <Vorname>Onorina</Vorname>
+            <KontaktGuid>0943f53103dc433b816367c1497e4d4c</KontaktGuid>
+            <AltsystemID>0A42F3A8-3FD6-4270-9461-0CC775A7F714</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2015-06-01T00:00:00.000</Start>
+                <End xsi:nil="false">2018-05-16T00:00:00.000</End>
+                <Text>01.06.2015 - 15.05.2018</Text>
+            </Dauer>
+            <Gremium>SK FD (Spezialkommission Finanzdepartement)</Gremium>
+            <GremiumGuid>3b75ce5227a04bd68c924c83ec54a050</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>10</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>10</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="092ef3d6770241c58a03ab0a8057c895" SEQ="3386394" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="092ef3d6770241c58a03ab0a8057c895" SEQ="3386394" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Schlieper</Name>
+            <Vorname>Marc</Vorname>
+            <KontaktGuid>529bf2c5cff74ae288a62f2f03b47691</KontaktGuid>
+            <AltsystemID>80003246-802E-4F37-905C-2898890583FB</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2015-06-01T00:00:00.000</Start>
+                <End xsi:nil="false">2016-09-01T00:00:00.000</End>
+                <Text>01.06.2015 - 31.08.2016</Text>
+            </Dauer>
+            <Gremium>SK TED/DIB (Spezialkommission Tiefbau- und Entsorgungsdepartement, Departement der Industriellen
+                Betriebe)
+            </Gremium>
+            <GremiumGuid>3defa0ea269e48ac8abd0c33e8e3d22b</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>7 und 8</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>8</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="c95ce1e2c3504c56ba70ae7ac5429536" SEQ="3386395" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="c95ce1e2c3504c56ba70ae7ac5429536" SEQ="3386395" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Rudolf</Name>
+            <Vorname>Reto</Vorname>
+            <KontaktGuid>22849a0b0ce848f0a2252f256643388a</KontaktGuid>
+            <AltsystemID>B2773D48-6B09-43E7-8F49-30CCCFE48ED0</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2015-06-01T00:00:00.000</Start>
+                <End xsi:nil="false">2017-01-09T00:00:00.000</End>
+                <Text>01.06.2015 - 08.01.2017</Text>
+            </Dauer>
+            <Gremium>SK TED/DIB (Spezialkommission Tiefbau- und Entsorgungsdepartement, Departement der Industriellen
+                Betriebe)
+            </Gremium>
+            <GremiumGuid>3defa0ea269e48ac8abd0c33e8e3d22b</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Christlichdemokratische Volkspartei</Partei>
+            <ParteiGuid>bb3826e1c533474abe94d001aeaf9bd4</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>11</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>6</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="1867b546ec6b4e6cbbda6ba176c2e41a" SEQ="3386396" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="1867b546ec6b4e6cbbda6ba176c2e41a" SEQ="3386396" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Krayenb\xc3\xbchl</Name>
+            <Vorname>Guy</Vorname>
+            <KontaktGuid>274ef2af504040d68e5da5867fd9dbf8</KontaktGuid>
+            <AltsystemID>AA77152D-5FDE-4725-8C69-21C022000EC8</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2015-10-20T00:00:00.000</Start>
+                <End xsi:nil="false">2022-05-04T00:00:00.000</End>
+                <Text>20.10.2015 - 03.05.2022</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>Gr\xc3\xbcnliberale Partei</Partei>
+            <ParteiGuid>5040df323de44be6977d86f5e6485009</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>1 und 2</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>3</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="63534880738f43f68cf2fa1e808500bb" SEQ="3386397" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="63534880738f43f68cf2fa1e808500bb" SEQ="3386397" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Krayenb\xc3\xbchl</Name>
+            <Vorname>Guy</Vorname>
+            <KontaktGuid>274ef2af504040d68e5da5867fd9dbf8</KontaktGuid>
+            <AltsystemID>AA77152D-5FDE-4725-8C69-21C022000EC8</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2015-10-20T00:00:00.000</Start>
+                <End xsi:nil="false">9999-12-31T23:59:59.000</End>
+                <Text>20.10.2015 -</Text>
+            </Dauer>
+            <Gremium>GLP</Gremium>
+            <GremiumGuid>74261076640a4be0b42a59cbb82b58f7</GremiumGuid>
+            <Gremiumstyp>Fraktion</Gremiumstyp>
+            <Partei>Gr\xc3\xbcnliberale Partei</Partei>
+            <ParteiGuid>5040df323de44be6977d86f5e6485009</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>1 und 2</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>3</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="b745ae87bf4a498da89ea4441d0906bd" SEQ="3386398" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="b745ae87bf4a498da89ea4441d0906bd" SEQ="3386398" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Simon</Name>
+            <Vorname>Claudia</Vorname>
+            <KontaktGuid>64a45623efa247b2a307c31d0de4edb6</KontaktGuid>
+            <AltsystemID>1419B16C-D4F7-4BF1-9385-8B64D8842B8F</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2012-10-01T00:00:00.000</Start>
+                <End xsi:nil="false">2014-09-23T00:00:00.000</End>
+                <Text>01.10.2012 - 22.09.2014</Text>
+            </Dauer>
+            <Gremium>RedK (Redaktionskommission)</Gremium>
+            <GremiumGuid>1bbe3e9fa4ed4f88976bed4a311b24e2</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>10</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>10</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="b5f22032a2d747d6afde93d7e1946899" SEQ="3386399" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="b5f22032a2d747d6afde93d7e1946899" SEQ="3386399" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Hungerb\xc3\xbchler</Name>
+            <Vorname>Markus</Vorname>
+            <KontaktGuid>ce5928650c724c468154310176f4d43e</KontaktGuid>
+            <AltsystemID>B5818A06-59B1-49E6-9496-0D26953FBC9D</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2014-10-01T00:00:00.000</Start>
+                <End xsi:nil="false">2018-05-16T00:00:00.000</End>
+                <Text>01.10.2014 - 15.05.2018</Text>
+            </Dauer>
+            <Gremium>B\xc3\xbcro des Gemeinderats</Gremium>
+            <GremiumGuid>d24d15b18b83418eb20a493a4442be15</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Christlichdemokratische Volkspartei</Partei>
+            <ParteiGuid>bb3826e1c533474abe94d001aeaf9bd4</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>3</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>9</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="78c5106da7c9411fa05fe013370ac73f" SEQ="3386401" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="78c5106da7c9411fa05fe013370ac73f" SEQ="3386401" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Papageorgiou</Name>
+            <Vorname>Kyriakos</Vorname>
+            <KontaktGuid>ab4cd6e749434604820104f718d0a062</KontaktGuid>
+            <AltsystemID>51F8DFAC-7E02-4D63-B3C7-0E4F5D396567</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2011-10-31T00:00:00.000</Start>
+                <End xsi:nil="false">2018-05-16T00:00:00.000</End>
+                <Text>31.10.2011 - 15.05.2018</Text>
+            </Dauer>
+            <Gremium>Parit\xc3\xa4tische Kommission LR Uri/GR von Z\xc3\xbcrich</Gremium>
+            <GremiumGuid>a0168e29cae24d1eb50073fc0d928a7c</GremiumGuid>
+            <Gremiumstyp>Kommission</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>11</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>11</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="6c7edaa91e0b47b5b756c2399106c3d7" SEQ="3386402" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="6c7edaa91e0b47b5b756c2399106c3d7" SEQ="3386402" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Mahrer</Name>
+            <Vorname>Liv</Vorname>
+            <KontaktGuid>787e45238ea648b3a862a0374c4df714</KontaktGuid>
+            <AltsystemID>8C78E4AB-1D2E-4752-AD36-DF485F5CA702</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2021-12-17T00:00:00.000</Start>
+                <End xsi:nil="false">9999-12-31T23:59:59.000</End>
+                <Text>17.12.2021 -</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>9</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>9</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="false">45</Sitz>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="380740c7755549f386e148f247f7ae23" SEQ="3386403" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="380740c7755549f386e148f247f7ae23" SEQ="3386403" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Ackermann</Name>
+            <Vorname>Ruth</Vorname>
+            <KontaktGuid>40ea17ecf61140ab9828de5922274904</KontaktGuid>
+            <AltsystemID>891DE33C-C98B-4325-B735-B1A078DBC368</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2013-01-10T00:00:00.000</Start>
+                <End xsi:nil="false">2015-05-28T00:00:00.000</End>
+                <Text>10.01.2013 - 27.05.2015</Text>
+            </Dauer>
+            <Gremium>CVP</Gremium>
+            <GremiumGuid>2f1c910b73694540893badc3f008912f</GremiumGuid>
+            <Gremiumstyp>Fraktion</Gremiumstyp>
+            <Partei>Christlichdemokratische Volkspartei</Partei>
+            <ParteiGuid>bb3826e1c533474abe94d001aeaf9bd4</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>11</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>11</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="552bddddeecd4c329f3bb2088ceb0fac" SEQ="3386404" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="552bddddeecd4c329f3bb2088ceb0fac" SEQ="3386404" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Ackermann</Name>
+            <Vorname>Ruth</Vorname>
+            <KontaktGuid>40ea17ecf61140ab9828de5922274904</KontaktGuid>
+            <AltsystemID>891DE33C-C98B-4325-B735-B1A078DBC368</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2013-01-10T00:00:00.000</Start>
+                <End xsi:nil="false">2015-05-28T00:00:00.000</End>
+                <Text>10.01.2013 - 27.05.2015</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>Christlichdemokratische Volkspartei</Partei>
+            <ParteiGuid>bb3826e1c533474abe94d001aeaf9bd4</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>11</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>11</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="abddd1ff2e634932982a841a31087a86" SEQ="3386405" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="abddd1ff2e634932982a841a31087a86" SEQ="3386405" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Garcia Nu\xc3\xb1ez</Name>
+            <Vorname>David</Vorname>
+            <KontaktGuid>3c209cb3e1194657ab23b91e5d25d2cc</KontaktGuid>
+            <AltsystemID>4A1BE35E-3F69-48A4-85B1-3FEE07B006AE</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2017-01-19T00:00:00.000</Start>
+                <End xsi:nil="false">2022-03-08T00:00:00.000</End>
+                <Text>19.01.2017 - 07.03.2022</Text>
+            </Dauer>
+            <Gremium>AL</Gremium>
+            <GremiumGuid>8bc3b6c03c914b13bfea67e1e2855339</GremiumGuid>
+            <Gremiumstyp>Fraktion</Gremiumstyp>
+            <Partei>Alternative Liste</Partei>
+            <ParteiGuid>13dbe4a033864ef79dcd8f5869a01498</ParteiGuid>
+            <Titel>Dr.</Titel>
+            <Wahlkreis>4 und 5</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>1</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="39cdedb9aaeb41a686d16f6e2f91b89e" SEQ="3386406" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="39cdedb9aaeb41a686d16f6e2f91b89e" SEQ="3386406" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Garcia Nu\xc3\xb1ez</Name>
+            <Vorname>David</Vorname>
+            <KontaktGuid>3c209cb3e1194657ab23b91e5d25d2cc</KontaktGuid>
+            <AltsystemID>4A1BE35E-3F69-48A4-85B1-3FEE07B006AE</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2017-01-19T00:00:00.000</Start>
+                <End xsi:nil="false">9999-12-31T23:59:59.000</End>
+                <Text>19.01.2017 -</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>Alternative Liste</Partei>
+            <ParteiGuid>13dbe4a033864ef79dcd8f5869a01498</ParteiGuid>
+            <Titel>Dr.</Titel>
+            <Wahlkreis>4 und 5</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>1</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="false">68</Sitz>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="b658169dd35c4763af86bf178d04a3fb" SEQ="3386407" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="b658169dd35c4763af86bf178d04a3fb" SEQ="3386407" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Siev</Name>
+            <Vorname>Ronny</Vorname>
+            <KontaktGuid>60b7dfe8620c427eae7fd4d14292eabe</KontaktGuid>
+            <AltsystemID>058AF0E5-DD56-4D66-A90B-4B9994B553FE</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2017-01-16T00:00:00.000</Start>
+                <End xsi:nil="false">9999-12-31T23:59:59.000</End>
+                <Text>16.01.2017 -</Text>
+            </Dauer>
+            <Gremium>Gemeinderat</Gremium>
+            <GremiumGuid>264d2fee665f45bbb51b79f8247f8139</GremiumGuid>
+            <Gremiumstyp>Gemeinderat</Gremiumstyp>
+            <Partei>Gr\xc3\xbcnliberale Partei</Partei>
+            <ParteiGuid>5040df323de44be6977d86f5e6485009</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>10</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>6</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="false">58</Sitz>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="08b68d4926964eb7aacca9220a0211fc" SEQ="3386408" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="08b68d4926964eb7aacca9220a0211fc" SEQ="3386408" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Siev</Name>
+            <Vorname>Ronny</Vorname>
+            <KontaktGuid>60b7dfe8620c427eae7fd4d14292eabe</KontaktGuid>
+            <AltsystemID>058AF0E5-DD56-4D66-A90B-4B9994B553FE</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2017-01-16T00:00:00.000</Start>
+                <End xsi:nil="false">9999-12-31T23:59:59.000</End>
+                <Text>16.01.2017 -</Text>
+            </Dauer>
+            <Gremium>GLP</Gremium>
+            <GremiumGuid>74261076640a4be0b42a59cbb82b58f7</GremiumGuid>
+            <Gremiumstyp>Fraktion</Gremiumstyp>
+            <Partei>Gr\xc3\xbcnliberale Partei</Partei>
+            <ParteiGuid>5040df323de44be6977d86f5e6485009</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>10</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>6</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="8ecdd0bc9e6a42f28a6ed49e77f78045" SEQ="3386409" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="8ecdd0bc9e6a42f28a6ed49e77f78045" SEQ="3386409" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Bartholdi</Name>
+            <Vorname>Roger</Vorname>
+            <KontaktGuid>fa74cf092a004968b8accd2ac3ad55ce</KontaktGuid>
+            <AltsystemID>BD983E30-7D78-4FEC-91FB-5BAB8E4C647D</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2022-01-01T00:00:00.000</Start>
+                <End xsi:nil="false">9999-12-31T23:59:59.000</End>
+                <Text>01.01.2022 -</Text>
+            </Dauer>
+            <Gremium>Gesch\xc3\xa4ftsleitung</Gremium>
+            <GremiumGuid>5a880b0b553540c8ac23e0ba0c7f032d</GremiumGuid>
+            <Gremiumstyp>Gesch\xc3\xa4ftsleitung</Gremiumstyp>
+            <Partei>Schweizerische Volkspartei</Partei>
+            <ParteiGuid>c9af9f2d398b4cf793f9f164d8f61006</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>9</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>9</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="26a51ec6203a49398b3819a0b8c27f4f" SEQ="3386410" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="26a51ec6203a49398b3819a0b8c27f4f" SEQ="3386410" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>B\xc3\xbcrki</Name>
+            <Vorname>Martin</Vorname>
+            <KontaktGuid>cee8102d50284a318f385b69562dcba3</KontaktGuid>
+            <AltsystemID>72D9C149-3269-42B0-848E-0E21FC8B0C21</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2022-01-01T00:00:00.000</Start>
+                <End xsi:nil="false">2023-09-06T00:00:00.000</End>
+                <Text>01.01.2022 - 05.09.2023</Text>
+            </Dauer>
+            <Gremium>Gesch\xc3\xa4ftsleitung</Gremium>
+            <GremiumGuid>5a880b0b553540c8ac23e0ba0c7f032d</GremiumGuid>
+            <Gremiumstyp>Gesch\xc3\xa4ftsleitung</Gremiumstyp>
+            <Partei>FDP.Die Liberalen</Partei>
+            <ParteiGuid>7c21c5370bf0443ca7dab443656267f2</ParteiGuid>
+            <Titel></Titel>
+            <Wahlkreis>1 und 2</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>2</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+    <Hit Guid="80260ee653bb454d8ceb3ef5f1bd2faf" SEQ="3386411" Relevance="1">
+        <Snippet/>
+        <Behordenmandat OBJ_GUID="80260ee653bb454d8ceb3ef5f1bd2faf" SEQ="3386411" IDX="Behoerdenmandat"
+                        xmlns="http://www.cmiag.ch/cdws/Behoerdenmandat" xmlns:cmi="http://cmiag.ch">
+            <Name>Graf</Name>
+            <Vorname>Davy</Vorname>
+            <KontaktGuid>26d3178498d14752af075a40edbfbb2b</KontaktGuid>
+            <AltsystemID>98059229-2EB1-4285-99F9-F15E21AAA589</AltsystemID>
+            <Dauer>
+                <Start xsi:nil="false">2022-01-01T00:00:00.000</Start>
+                <End xsi:nil="false">2023-09-20T00:00:00.000</End>
+                <Text>01.01.2022 - 19.09.2023</Text>
+            </Dauer>
+            <Gremium>Gesch\xc3\xa4ftsleitung</Gremium>
+            <GremiumGuid>5a880b0b553540c8ac23e0ba0c7f032d</GremiumGuid>
+            <Gremiumstyp>Gesch\xc3\xa4ftsleitung</Gremiumstyp>
+            <Partei>Sozialdemokratische Partei</Partei>
+            <ParteiGuid>acaf62cfb36e44c4896ffac617848318</ParteiGuid>
+            <Titel>Dr.</Titel>
+            <Wahlkreis>9</Wahlkreis>
+            <WahlkreisOrder xsi:nil="true"/>
+            <Wohnkreis>9</Wohnkreis>
+            <Funktion>Mitglied</Funktion>
+            <Sitz xsi:nil="true"/>
+        </Behordenmandat>
+    </Hit>
+</SearchDetailResponse>'
